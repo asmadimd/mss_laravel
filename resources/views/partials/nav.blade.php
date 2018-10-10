@@ -36,14 +36,10 @@
                             <a class="dropdown-item {{ Request::is('activity') ? 'active' : null }}" href="{{ url('/activity') }}">
                                 @lang('titles.adminActivity')
                             </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item {{ Request::is('phpinfo') ? 'active' : null }}" href="{{ url('/phpinfo') }}">
-                                @lang('titles.adminPHP')
-                            </a>
-                            <div class="dropdown-divider"></div>
+                            <!--<div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('routes') ? 'active' : null }}" href="{{ url('/routes') }}">
                                 @lang('titles.adminRoutes')
-                            </a>
+                            </a>-->
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('active-users') ? 'active' : null }}" href="{{ url('/active-users') }}">
                                 @lang('titles.activeUsers')
