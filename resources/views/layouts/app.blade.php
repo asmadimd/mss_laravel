@@ -8,9 +8,9 @@
         {{-- CSRF Token --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>@if (trim($__env->yieldContent('template_title')))@yield('template_title') | @endif {{ config('app.name', Lang::get('titles.app')) }}</title>
+        <title>@if (trim($__env->yieldContent('template_title')))@yield('template_title') | @endif {{ "UBD MSS" }}</title>
+		<!--<title>UBD MSS</title>-->
         <meta name="description" content="">
-        <meta name="author" content="Jeremy Kenedy">
         <link rel="shortcut icon" href="/favicon.ico">
 
         {{-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --}}
