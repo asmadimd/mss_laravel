@@ -19,6 +19,8 @@ Route::get('/', function (){
 	return redirect(route('login'));
 });
 
+Route::get('/meeting/new', ['as' => 'new', 'uses'=>'MeetingController@new']);
+
 // Authentication Routes
 Auth::routes();
 
@@ -110,7 +112,7 @@ Route::group(['middleware' => ['auth', 'activated', 'role:admin', 'activity', 't
         'names' => [
             'index'   => 'users',
             'destroy' => 'user.destroy',
-			'createmeeting' => 'user.createmeeting',
+            'createmeeting' => 'users.createmeeting',
         ],
         'except' => [
             'deleted',

@@ -57,10 +57,7 @@ class UsersManagementController extends Controller
         return view('usersmanagement.create-user')->with($data);
     }
 	
-	public function createmeeting()
-    {
-        return view('usersmanagement.createmeeting');
-    }
+	
 
     /**
      * Store a newly created resource in storage.

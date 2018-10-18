@@ -23,6 +23,7 @@ return [
     'adminUserList'     => 'Users Administration',
     'adminEditUsers'    => 'Edit Users',
     'adminNewUser'      => 'Create New User',
+    'adminCreateMeeting'=> 'Create Meeting',
 
     'adminThemesList'   => 'Themes',
     'adminThemesAdd'    => 'Add New Theme',
