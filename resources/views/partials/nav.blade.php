@@ -20,6 +20,10 @@
                             <a class="dropdown-item {{ Request::is('users', 'users/' . Auth::user()->id, 'users/' . Auth::user()->id . '/edit') ? 'active' : null }}" href="{{ url('/users') }}">
                                 @lang('titles.adminUserList')
                             </a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item {{ Request::is('users', 'users/createmeeting' . Auth::user()->id, 'users/' . Auth::user()->id . '/edit') ? 'active' : null }}" href="{{ url('/users/createmeeting') }}">
+                                Create Meeting
+                            </a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('users/create') ? 'active' : null }}" href="{{ url('/users/create') }}">
                                 @lang('titles.adminNewUser')
