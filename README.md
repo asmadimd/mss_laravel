@@ -24,19 +24,13 @@
 - [Installation Instructions](#installation-instructions)
     - [Build the Front End Assets with Mix](#build-front-end-assets-with-mix)
     - [Optionally Build Cache](#optionally-build-cache)
-- [Seeds](#seeds)
-    - [Seeded Roles](#seeded-roles)
-    - [Seeded Permissions](#seeded-permissions)
-    - [Seeded Users](#seeded-users)
-    - [Themes Seed List](#themes-seed-list)
+- [User Roles](#user-roles)
+- [Seeded Permissions](#seeded-permissions)
+- [Import SQL Files](#import-sql-files)
+- [Run MSS Application](#run-mss-application)
 - [Routes](#routes)
-- [Socialite](#socialite)
-    - [Get Socialite Login API Keys](#get-socialite-login-api-keys)
-    - [Add More Socialite Logins](#add-more-socialite-logins)
-- [Other API keys](#other-api-keys)
 - [Environment File](#environment-file)
 - [Updates](#updates)
-- [Screenshots](#screenshots)
 - [File Tree](#file-tree)
 - [Opening an Issue](#opening-an-issue)
 - [Laravel Auth License](#laravel-auth-license)
@@ -116,7 +110,6 @@ php artisan vendor:publish --tag=laravel2step
 9. From the projects root folder run `php artisan migrate`
 10. From the projects root folder run `composer dump-autoload`
 11. From the projects root folder run `php artisan db:seed`
-12. Compile the front end assets with [npm steps](#using-npm) or [yarn steps](#using-yarn).
 
 #### Optionally Build Cache
 1. From the projects root folder run `php artisan config:cache`
