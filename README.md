@@ -1,22 +1,6 @@
-## Laravel-Auth
-#### Laravel-Auth is a Complete Build of Laravel 5.7 with Email Registration Verification, Social Authentication, User Roles and Permissions, User Profiles, and Admin restricted user management system. Built on Bootstrap 4.
-[![Build Status](https://travis-ci.org/jeremykenedy/laravel-auth.svg?branch=master)](https://travis-ci.org/jeremykenedy/laravel-auth)
-[![StyleCI](https://styleci.io/repos/44714043/shield?branch=master)](https://styleci.io/repos/44714043)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jeremykenedy/laravel-auth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jeremykenedy/laravel-auth/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/jeremykenedy/laravel-auth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/jeremykenedy/laravel-auth/build-status/master)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-### Sponsor
-<table>
-    <tr>
-        <td>
-            <img src="https://s3.amazonaws.com/sponsers/sponsor-logo.png">
-        </td>
-        <td>
-            If you want to quickly add secure token-based authentication to Laravel apps, feel free to check Auth0's Laravel SDK and free plan at <a href="https://auth0.com/overview?utm_source=GHsponsor&utm_medium=GHsponsor&utm_campaign=laravel-auth&utm_content=auth" target="_blank">https://auth0.com/overview</a>.
-        </td>
-    </tr>
-</table>
+## Meeting Scheduler System.
+#### Laravel-Auth is a Complete Build of Laravel 5.7 with Email Registration Verification, Social Authentication, User Roles and Permissions, User Profiles, and Admin restricted user management system. Built on Bootstrap 4. 
+#### Based on jeremekenedy laravel-auth.
 
 #### Table of contents
 - [About](#about)
@@ -92,9 +76,9 @@ Laravel 5.7 with user authentication, registration with email confirmation, soci
 |Uses [Laravel PHP Info](https://github.com/jeremykenedy/laravel-phpinfo) package|
 
 ### Installation Instructions
-1. Run `git clone https://github.com/jeremykenedy/laravel-auth.git laravel-auth`
+1. Run `git clone https://github.com/asmadimd/mss_laravel`
 2. Create a MySQL database for the project
-    * ```mysql -u root -p```, if using Vagrant: ```mysql -u homestead -psecret```
+    * ```mysql -u root -p```
     * ```create database laravelAuth;```
     * ```\q```
 3. From the projects root run `cp .env.example .env`
@@ -133,7 +117,7 @@ php artisan vendor:publish --tag=laravel2step
 
 ##### Run MSS Application
 
-1. Download and paste project file in htdocs root
+1. Download/ Clone, and paste project file in htdocs root
 2. Configure .env file to match with your mysql/phpmyadmin username and password
 3. Run MSS application by command in terminal/ cmd: php artisan serve
 
