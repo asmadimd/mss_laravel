@@ -118,27 +118,14 @@ php artisan vendor:publish --tag=laravel2step
 11. From the projects root folder run `php artisan db:seed`
 12. Compile the front end assets with [npm steps](#using-npm) or [yarn steps](#using-yarn).
 
-#### Build the Front End Assets with Mix
-##### Using NPM:
-1. From the projects root folder run `npm install`
-2. From the projects root folder run `npm run dev` or `npm run production`
-  * You can watch assets with `npm run watch`
-
-##### Using Yarn:
-1. From the projects root folder run `yarn install`
-2. From the projects root folder run `yarn run dev` or `yarn run production`
-  * You can watch assets with `yarn run watch`
-
 #### Optionally Build Cache
 1. From the projects root folder run `php artisan config:cache`
 
-###### And thats it with the caveat of setting up and configuring your development environment. I recommend [Laravel Homestead](https://laravel.com/docs/5.7/homestead)
-
-### Seeds
-##### Seeded Roles
+##### User Roles
+  * Admin/ Programme Leader - Level 5
+  * Lecturer - Level 1
+  * Student - Level 1
   * Unverified - Level 0
-  * User  - Level 1
-  * Administrator - Level 5
 
 ##### Seeded Permissions
   * view.users
@@ -146,16 +133,16 @@ php artisan vendor:publish --tag=laravel2step
   * edit.users
   * delete.users
 
-##### Seeded Users
+##### Import SQL files
 
-|Email|Password|Access|
-|:------------|:------------|:------------|
-|user@user.com|password|User Access|
-|admin@admin.com|password|Admin Access|
+1. Create database 'laravelauth' in phpmyadmin
+2. Import SQL file in /sql in project root
 
-##### Themes Seed List
-  * [ThemesTableSeeder](https://github.com/jeremykenedy/laravel-auth/blob/master/database/seeds/ThemesTableSeeder.php)
-  * NOTE: A lot of themes do not render the greated on Bootstrap 4 since their core was built to override Bootstrap 4. These will be updated soon and ones that do not render well will be removed from the seed. In the mean time you can remove them from the seed or manaully from the UI or database.
+##### Run MSS Application
+
+1. Download and paste project file in htdocs root
+2. Configure .env file to match with your mysql/phpmyadmin username and password
+3. Run MSS application by command in terminal/ cmd: php artisan serve
 
 ### Routes
 
@@ -236,68 +223,6 @@ php artisan vendor:publish --tag=laravel2step
 +--------+----------------------------------------+---------------------------------------+----------------------------------+---------------------------------------------------------------------------------------------------+-------------------------------------------------+
 ```
 
-### Socialite
-
-#### Get Socialite Login API Keys:
-* [Google Captcha API](https://www.google.com/recaptcha/admin#list)
-* [Facebook API](https://developers.facebook.com/)
-* [Twitter API](https://apps.twitter.com/)
-* [Google &plus; API](https://console.developers.google.com/)
-* [GitHub API](https://github.com/settings/applications/new)
-* [YouTube API](https://developers.google.com/youtube/v3/getting-started)
-* [Twitch TV API](http://www.twitch.tv/kraken/oauth2/clients/new)
-* [Instagram API](https://instagram.com/developer/register/)
-* [37 Signals API](https://github.com/basecamp/basecamp-classic-api)
-
-#### Add More Socialite Logins
-* See full list of providers: [http://socialiteproviders.github.io](http://socialiteproviders.github.io/#providers)
-###### **Steps**:
-  1. Go to [http://socialiteproviders.github.io](http://socialiteproviders.github.io/providers/twitch/) and select the provider to be added.
-  2. From the projects root folder in terminal run composer command to get the needed package.
-     * Example:
-
-      ```
-         composer require socialiteproviders/twitch
-      ```
-
-  3. From the projects root folder run ```composer update```
-  4. Add the service provider to ```/config/services.php```
-     * Example:
-
-     ```
-        'twitch' => [
-            'client_id'   => env('TWITCH_KEY'),
-            'client_secret' => env('TWITCH_SECRET'),
-            'redirect'    => env('TWITCH_REDIRECT_URI'),
-        ],
-     ```
-
-  5. Add the API credentials to ``` /.env  ```
-     * Example:
-
-      ```
-         TWITCH_KEY=YOURKEYHERE
-         TWITCH_SECRET=YOURSECRETHERE
-         TWITCH_REDIRECT_URI=http://YOURWEBSITEURL.COM/social/handle/twitch
-      ```
-
-  6. Add the social media login link:
-      * Example:
-      In file ```/resources/views/auth/login.blade.php``` add ONE of the following:
-         * Conventional HTML:
-        ```
-        <a href="{{ route('social.redirect', ['provider' => 'twitch']) }}" class="btn btn-lg btn-primary btn-block twitch">Twitch</a>
-        ```
-         * Use Laravel HTML Facade with [Laravel Collective](https://laravelcollective.com/):
-
-        ```
-        {!! HTML::link(route('social.redirect', ['provider' => 'twitch']), 'Twitch', array('class' => 'btn btn-lg btn-primary btn-block twitch')) !!}
-        ```
-
-### Other API keys
-* [Google Maps API v3 Key](https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key)
-
-
 ### Environment File
 Example `.env` file:
 
@@ -344,128 +269,6 @@ EMAIL_EXCEPTION_TO='email1@gmail.com, email2@gmail.com'
 EMAIL_EXCEPTION_CC=''
 EMAIL_EXCEPTION_BCC=''
 EMAIL_EXCEPTION_SUBJECT=''
-
-# You will also need to update the pusher credentials in /resources/assets/js/bootstrap.js - lines 64 - 66
-PUSHER_APP_ID=
-PUSHER_APP_KEY=
-PUSHER_APP_SECRET=
-PUSHER_APP_CLUSTER=
-
-MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-
-ACTIVATION=true
-ACTIVATION_LIMIT_TIME_PERIOD=24
-ACTIVATION_LIMIT_MAX_ATTEMPTS=3
-NULL_IP_ADDRESS=0.0.0.0
-
-DEBUG_BAR_ENVIRONMENT=local
-
-USER_RESTORE_CUTOFF_DAYS=31
-USER_RESTORE_ENCRYPTION_KEY=
-USER_LIST_PAGINATION_SIZE=50
-
-LARAVEL_2STEP_ENABLED=false
-LARAVEL_2STEP_DATABASE_CONNECTION=mysql
-LARAVEL_2STEP_DATABASE_TABLE=laravel2step
-LARAVEL_2STEP_USER_MODEL=App\User
-LARAVEL_2STEP_EMAIL_FROM="jeremykenedy@gmail.com"
-LARAVEL_2STEP_EMAIL_FROM_NAME="Laravel 2 Step Verification"
-LARAVEL_2STEP_EMAIL_SUBJECT='Laravel 2 Step Verification'
-LARAVEL_2STEP_EXCEEDED_COUNT=3
-LARAVEL_2STEP_EXCEEDED_COUNTDOWN_MINUTES=1440
-LARAVEL_2STEP_VERIFIED_LIFETIME_MINUTES=360
-LARAVEL_2STEP_RESET_BUFFER_IN_SECONDS=300
-LARAVEL_2STEP_CSS_FILE="css/laravel2step/app.css"
-LARAVEL_2STEP_APP_CSS_ENABLED=false
-LARAVEL_2STEP_APP_CSS="css/app.css"
-LARAVEL_2STEP_BOOTSTRAP_CSS_CDN_ENABLED=true
-LARAVEL_2STEP_BOOTSTRAP_CSS_CDN="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-
-DEFAULT_GRAVATAR_SIZE=80
-DEFAULT_GRAVATAR_FALLBACK=http://c1940652.r52.cf0.rackcdn.com/51ce28d0fb4f442061000000/Screen-Shot-2013-06-28-at-5.22.23-PM.png
-DEFAULT_GRAVATAR_SECURE=false
-DEFAULT_GRAVATAR_MAX_RATING=g
-DEFAULT_GRAVATAR_FORCE_DEFAULT=false
-DEFAULT_GRAVATAR_FORCE_EXTENSION=jpg
-
-DROPZONE_JS_CDN=https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/dropzone.js
-
-LARAVEL_LOGGER_DATABASE_CONNECTION=mysql
-LARAVEL_LOGGER_DATABASE_TABLE=laravel_logger_activity
-LARAVEL_LOGGER_ROLES_ENABLED=true
-LARAVEL_LOGGER_ROLES_MIDDLWARE=role:admin
-LARAVEL_LOGGER_MIDDLEWARE_ENABLED=true
-LARAVEL_LOGGER_USER_MODEL=App\Models\User
-LARAVEL_LOGGER_PAGINATION_ENABLED=true
-LARAVEL_LOGGER_PAGINATION_PER_PAGE=25
-LARAVEL_LOGGER_DATATABLES_ENABLED=false
-LARAVEL_LOGGER_DASHBOARD_MENU_ENABLED=true
-LARAVEL_LOGGER_DASHBOARD_DRILLABLE=true
-LARAVEL_LOGGER_LOG_RECORD_FAILURES_TO_FILE=true
-LARAVEL_LOGGER_FLASH_MESSAGE_BLADE_ENABLED=false
-LARAVEL_LOGGER_JQUERY_CDN_ENABLED=false
-LARAVEL_LOGGER_JQUERY_CDN_URL=https://code.jquery.com/jquery-2.2.4.min.js
-LARAVEL_LOGGER_BLADE_CSS_PLACEMENT_ENABLED=true
-LARAVEL_LOGGER_BLADE_JS_PLACEMENT_ENABLED=true
-LARAVEL_LOGGER_BOOTSTRAP_JS_CDN_ENABLED=false
-LARAVEL_LOGGER_BOOTSTRAP_JS_CDN_URL=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
-LARAVEL_LOGGER_FONT_AWESOME_CDN_ENABLED=false
-LARAVEL_LOGGER_FONT_AWESOME_CDN_URL=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-LARAVEL_LOGGER_BOOTSTRAP_CSS_CDN_ENABLED=false
-LARAVEL_LOGGER_BOOTSTRAP_CSS_CDN_URL=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
-
-// NOTE: YOU CAN REMOVE THE KEY CALL IN app.blade.php IF YOU GET A POP UP AND DO NOT WANT TO SETUP A KEY FOR DEV
-# Google Maps API v3 Key - https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key
-GOOGLEMAPS_API_STATUS=true
-GOOGLEMAPS_API_KEY=YOURGOOGLEMAPSkeyHERE
-
-# https://console.developers.google.com/ - NEED OAUTH CREDS
-GOOGLE_ID=YOURGOOGLEPLUSidHERE
-GOOGLE_SECRET=YOURGOOGLEPLUSsecretHERE
-GOOGLE_REDIRECT=http://yourwebsiteURLhere.com/social/handle/google
-
-# https://www.google.com/recaptcha/admin#list
-ENABLE_RECAPTCHA=true
-RE_CAP_SITE=YOURGOOGLECAPTCHAsitekeyHERE
-RE_CAP_SECRET=YOURGOOGLECAPTCHAsecretHERE
-
-# https://developers.facebook.com/
-FB_ID=YOURFACEBOOKidHERE
-FB_SECRET=YOURFACEBOOKsecretHERE
-FB_REDIRECT=http://yourwebsiteURLhere.com/social/handle/facebook
-
-# https://apps.twitter.com/
-TW_ID=YOURTWITTERidHERE
-TW_SECRET=YOURTWITTERkeyHERE
-TW_REDIRECT=http://yourwebsiteURLhere.com/social/handle/twitter
-
-# https://github.com/settings/applications/new
-GITHUB_ID=YOURIDHERE
-GITHUB_SECRET=YOURSECRETHERE
-GITHUB_URL=https://larablog.io/social/handle/github
-
-# https://developers.google.com/youtube/v3/getting-started
-YOUTUBE_KEY=YOURKEYHERE
-YOUTUBE_SECRET=YOURSECRETHERE
-YOUTUBE_REDIRECT_URI=https://larablog.io/social/handle/youtube
-
-# http://www.twitch.tv/kraken/oauth2/clients/new
-TWITCH_KEY=YOURKEYHERE
-TWITCH_SECRET=YOURSECRETHERE
-TWITCH_REDIRECT_URI=http://laravel-authentication.local/social/handle/twitch
-
-# https://instagram.com/developer/register/
-INSTAGRAM_KEY=YOURKEYHERE
-INSTAGRAM_SECRET=YOURSECRETHERE
-INSTAGRAM_REDIRECT_URI=http://laravel-authentication.local/social/handle/instagram
-
-# https://basecamp.com/
-# https://github.com/basecamp/basecamp-classic-api
-37SIGNALS_KEY=YOURKEYHERE
-37SIGNALS_SECRET=YOURSECRETHERE
-37SIGNALS_REDIRECT_URI=http://laravel-authentication.local/social/handle/37signals
-
 ```
 
 #### Laravel Developement Packages Used References
@@ -505,52 +308,9 @@ INSTAGRAM_REDIRECT_URI=http://laravel-authentication.local/social/handle/instagr
 * Added User Gravatar using Gravatar API
 * Added Themes Management.
 * Add user profiles with seeded list and global view
-* Major overhaul on Laravel 5.4
-* Update from Laravel 5.1 to 5.2
 * Added eloquent editable user profile
 * Added IP Capture
-* Added Google Maps API v3 for User Location lookup
-* Added Google Maps API v3 for User Location Input Geocoding
-* Added Google Maps API v3 for User Location Map with Options
 * Added CRUD(Create, Read, Update, Delete) User Management
-
-### Screenshots
-* (To be updated...)
-![Login](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/1laravel-auth2-login.jpg)
-![Register](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/2laravel-auth2-register.jpg)
-![Registration Confirmation](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/3laravel-auth2-account-req-activation.jpg)
-![Registration Email](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/4laravel-auth2-activation-email.jpg)
-![Registration Complete](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/5laravel-auth2-userhome-with-flash-success.jpg)
-![Intial User Profile](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/6laravel-auth2-profile-mapless.jpg)
-![Edit User Profile](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/7laravel-auth2-profile-edit.jpg)
-![Find Location Using Google Maps API v3](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/8laravel-auth2-edit-profile-lookup.jpg)
-![Profile Updated](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/9laravel-auth2-flash-success.jpg)
-![Profile Semi-completed](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/10laravel-auth2-profile-with-map.jpg)
-
-![Admin Panel Users List](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/11laravel-auth2-users-list.jpg)
-![Admin Panel Delete User](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/12laravel-auth2-modal-delete.jpg)
-![Admin Panel Flash Error](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/13laravel-auth2-flash-error.jpg)
-![Admin Panel Show User](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/14laravel-auth2-show-edit.jpg)
-![Admin Panel Edit User](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/15laravel-auth2-edit-user.jpg)
-![Admin Panel Save Edits](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/16laravel-auth2-modal-save.jpg)
-![Admin Panel Create User](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-auth/17laravel-auth-create-user.jpg)
-
-![dashboard](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/1-dashboard.jpg)
-![drilldown](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/2-drilldown.jpg)
-![confirm-clear](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/3-confirm-clear.jpg)
-![log-cleared-msg](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/4-log-cleared-msg.jpg)
-![cleared-log](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/5-cleared-log.jpg)
-![confirm-restore](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/5-confirm-restore.jpg)
-![confirm-destroy](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/6-confirm-destroy.jpg)
-![success-destroy](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/7-success-destroy.jpg)
-![success-restored](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/8-success-restored.jpg)
-![cleared-drilldown](https://s3-us-west-2.amazonaws.com/github-project-images/laravel-logger/9-cleared-drilldown.jpg)
-
-![Verification Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel2step/1-verification-page.jpeg)
-![Resent Email Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel2step/2-verification-email-resent.jpeg)
-![Lock Warning Modal](https://s3-us-west-2.amazonaws.com/github-project-images/laravel2step/3-lock-warning.jpeg)
-![Locked Page](https://s3-us-west-2.amazonaws.com/github-project-images/laravel2step/4-lock-screen.jpeg)
-![Verification Email](https://s3-us-west-2.amazonaws.com/github-project-images/laravel2step/5-verification-email.jpeg)
 
 ### File Tree
 ```
