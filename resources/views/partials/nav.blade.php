@@ -28,10 +28,10 @@
                             <a class="dropdown-item {{ Request::is('users/create') ? 'active' : null }}" href="{{ url('/users/create') }}">
                                 @lang('titles.adminNewUser')
                             </a>
-                            <div class="dropdown-divider"></div>
+                            <!--<div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('themes','themes/create') ? 'active' : null }}" href="{{ url('/themes') }}">
                                 @lang('titles.adminThemesList')
-                            </a>
+                            </a>-->
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('logs') ? 'active' : null }}" href="{{ url('/logs') }}">
                                 @lang('titles.adminLogs')
