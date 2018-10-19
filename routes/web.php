@@ -112,7 +112,6 @@ Route::group(['middleware' => ['auth', 'activated', 'role:admin', 'activity', 't
         'names' => [
             'index'   => 'users',
             'destroy' => 'user.destroy',
-            'createmeeting' => 'users.createmeeting',
         ],
         'except' => [
             'deleted',
