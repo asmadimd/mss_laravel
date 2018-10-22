@@ -24,6 +24,8 @@ return [
     'adminEditUsers'    => 'Edit Users',
     'adminNewUser'      => 'Create New User',
     'adminCreateMeeting'=> 'Create Meeting',
+    'adminViewFeedback'=> 'View Meeting Feedback',
+    'adminTimeslotFinder' => 'Timeslot Finder',
 
     'adminThemesList'   => 'Themes',
     'adminThemesAdd'    => 'Add New Theme',

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MeetingController extends Controller
+class TimeslotsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class MeetingController extends Controller
      */
     public function index()
     {
-        return "this is an index page";
+        return view('timeslot.index');
     }
 
     /**
@@ -23,7 +23,7 @@ class MeetingController extends Controller
      */
     public function create()
     {
-        return view('meeting.create');
+        //
     }
 
     /**
@@ -56,7 +56,7 @@ class MeetingController extends Controller
      */
     public function edit($id)
     {
-        return "this is edit function" . $id;
+        //
     }
 
     /**
@@ -80,9 +80,5 @@ class MeetingController extends Controller
     public function destroy($id)
     {
         //
-    }
-
-    public function feedback(){
-        return view('meeting/feedback');
     }
 }

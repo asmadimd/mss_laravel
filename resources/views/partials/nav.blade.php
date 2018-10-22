@@ -21,29 +21,21 @@
                                 @lang('titles.adminUserList')
                             </a>
                             <div class="dropdown-divider"></div>
-							<a class="dropdown-item {{ Request::is('meeting/new', 'meeting/new' . Auth::user()->id, 'meeting/new' . Auth::user()->id . 'meeting/new') ? 'active' : null }}" href="{{ url('meeting/new') }}">
+							<a class="dropdown-item {{ Request::is('meeting.create', 'meeting.create' . Auth::user()->id, 'meeting.create' . Auth::user()->id . 'meeting.create') ? 'active' : null }}" href="{{ url('meeting/create') }}">
                                 @lang('titles.adminCreateMeeting')
                             </a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('users/create') ? 'active' : null }}" href="{{ url('/users/create') }}">
                                 @lang('titles.adminNewUser')
                             </a>
-                            <!--<div class="dropdown-divider"></div>
-                            <a class="dropdown-item {{ Request::is('themes','themes/create') ? 'active' : null }}" href="{{ url('/themes') }}">
-                                @lang('titles.adminThemesList')
-                            </a>-->
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item {{ Request::is('logs') ? 'active' : null }}" href="{{ url('/logs') }}">
-                                @lang('titles.adminLogs')
+                            <a class="dropdown-item {{ Request::is('timeslot') ? 'active' : null }}" href="{{ url('/timeslot/') }}">
+                                @lang('titles.adminTimeslotFinder')
                             </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item {{ Request::is('activity') ? 'active' : null }}" href="{{ url('/activity') }}">
-                                @lang('titles.adminActivity')
+                            <a class="dropdown-item {{ Request::is('meeting.feedback') ? 'active' : null }}" href="{{ url('meeting/feedback') }}">
+                                @lang('titles.adminViewFeedback')
                             </a>
-                            <!--<div class="dropdown-divider"></div>
-                            <a class="dropdown-item {{ Request::is('routes') ? 'active' : null }}" href="{{ url('/routes') }}">
-                                @lang('titles.adminRoutes')
-                            </a>-->
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('active-users') ? 'active' : null }}" href="{{ url('/active-users') }}">
                                 @lang('titles.activeUsers')

@@ -26,11 +26,11 @@ class RolesTableSeeder extends Seeder
             ]);
         }
 
-        if (Role::where('slug', '=', 'user')->first() === null) {
+        if (Role::where('slug', '=', 'lecturer')->first() === null) {
             $userRole = Role::create([
-                'name'        => 'User',
-                'slug'        => 'user',
-                'description' => 'User Role',
+                'name'        => 'Lecturer',
+                'slug'        => 'lecturer',
+                'description' => 'Lecturer Role',
                 'level'       => 1,
             ]);
         }

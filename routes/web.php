@@ -19,7 +19,17 @@ Route::get('/', function (){
 	return redirect(route('login'));
 });
 
-Route::get('/meeting/new', ['as' => 'new', 'uses'=>'MeetingController@new']);
+//Meeting resources
+Route::resource('meeting', 'MeetingController');
+Route::get('/meeting/', 'MeetingController@index');
+Route::get('/meeting/create', 'MeetingController@create');
+Route::get('/meeting/feedback', 'MeetingController@feedback');
+
+
+
+//Timeslot resource
+Route::resource('timeslot', 'TimeslotsController');
+Route::get('/timeslot/', 'TimeslotsController@index');
 
 // Authentication Routes
 Auth::routes();
