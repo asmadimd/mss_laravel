@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Meeting;
 use Illuminate\Http\Request;
 
 class MeetingController extends Controller
@@ -34,7 +35,17 @@ class MeetingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //get request from create form
+        //return $request->all();
+
+        $input = $request->all();
+        $input['title'] = $request->title;
+        $input['agenda'] = $request->agenda;
+        $input['option'] = $request->option;
+        $input['date'] = $request->date;
+        $input['user_id'] = $request->user_id;
+
+        Meeting::create($request->all());
     }
 
     /**

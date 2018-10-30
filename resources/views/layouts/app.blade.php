@@ -82,6 +82,6 @@
         @endif
 
         @yield('footer_scripts')
-
+        
     </body>
 </html>

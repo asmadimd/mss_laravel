@@ -1,5 +1,6 @@
 <?php
 
+use App\Meeting;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,6 +31,49 @@ Route::get('/meeting/feedback', 'MeetingController@feedback');
 //Timeslot resource
 Route::resource('timeslot', 'TimeslotsController');
 Route::get('/timeslot/', 'TimeslotsController@index');
+
+
+/*
+|--------------------------------------------------------------------------
+|Raw SQL
+|--------------------------------------------------------------------------
+|
+*/
+
+//Route::get('/insert', function(){
+//    DB::insert('insert into meeting(title, agenda, option, user_id) values(?, ?, ?, ?)', ['test title', 'test agenda', 'formal', '1']);
+
+
+//});
+
+/*
+|--------------------------------------------------------------------------
+|ELOQUENT ORM
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/read', function(){
+
+    $meetings = Meeting::all();
+
+    foreach($meetings as $meeting){
+        return $meeting->title;
+    }
+
+});
+
+Route::get('/find', function(){
+    $meeting = Meeting::find(1);
+
+    return $meeting->title;
+
+
+});
+
+
+
+
 
 // Authentication Routes
 Auth::routes();
