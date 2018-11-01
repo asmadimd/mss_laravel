@@ -21,10 +21,6 @@
                                 @lang('titles.adminUserList')
                             </a>
                             <div class="dropdown-divider"></div>
-							<a class="dropdown-item {{ Request::is('meeting.create', 'meeting.create' . Auth::user()->id, 'meeting.create' . Auth::user()->id . 'meeting.create') ? 'active' : null }}" href="{{ url('meeting/create') }}">
-                                @lang('titles.adminCreateMeeting')
-                            </a>
-                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('users/create') ? 'active' : null }}" href="{{ url('/users/create') }}">
                                 @lang('titles.adminNewUser')
                             </a>
@@ -44,6 +40,29 @@
                     </li>
                 @endrole
             </ul>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            {{-- Left Side Of Navbar --}}
+            <ul class="navbar-nav mr-auto">
+                @role('admin')
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {!! trans('titles.adminMeetingNav') !!}
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item {{ Request::is('meeting.create', 'meeting.create' . Auth::user()->id, 'meeting.create' . Auth::user()->id . 'meeting.create') ? 'active' : null }}" href="{{ url('meeting/create') }}">
+                                @lang('titles.adminCreateMeeting')
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item {{ Request::is('meeting.index', 'meeting.index' . Auth::user()->id, 'meeting.index' . Auth::user()->id . 'meeting.index') ? 'active' : null }}" href="{{ url('meeting/') }}">
+                                @lang('titles.adminMeetingIndex')
+                            </a>
+                        </div>
+                    </li>
+                @endrole
+            </ul>
+
             {{-- Right Side Of Navbar --}}
             <ul class="navbar-nav ml-auto">
                 {{-- Authentication Links --}}
@@ -78,4 +97,5 @@
             </ul>
         </div>
     </div>
+</div>
 </nav>

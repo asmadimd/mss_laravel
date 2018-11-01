@@ -14,6 +14,8 @@ return [
     'editProfile'       => 'Edit Profile',
     'createProfile'     => 'Create Profile',
     'adminDropdownNav'  => 'Admin',
+    'adminMeetingNav'  => 'Meeting',
+    'adminMeetingIndex' => 'Manage Meeting',
 
     'activation'        => 'Registration Started  | Activation Required',
     'exceeded'          => 'Activation Error',
@@ -26,6 +28,8 @@ return [
     'adminCreateMeeting'=> 'Create Meeting',
     'adminViewFeedback'=> 'View Meeting Feedback',
     'adminTimeslotFinder' => 'Timeslot Finder',
+    'adminViewAll' => 'All meeting',
+    'adminEditMeeting' => 'Edit meeting',
 
     'adminThemesList'   => 'Themes',
     'adminThemesAdd'    => 'Add New Theme',

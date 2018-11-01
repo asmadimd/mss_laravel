@@ -1,6 +1,7 @@
 <?php
 
 use App\Meeting;
+use App\Models\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -53,23 +54,34 @@ Route::get('/timeslot/', 'TimeslotsController@index');
 |
 */
 
-Route::get('/read', function(){
+// Route::get('/read', function(){
 
-    $meetings = Meeting::all();
+//     $meetings = Meeting::all();
 
-    foreach($meetings as $meeting){
-        return $meeting->title;
-    }
+//     foreach($meetings as $meeting){
+//         return $meeting->title;
+//     }
 
-});
+// });
 
-Route::get('/find', function(){
-    $meeting = Meeting::find(1);
+// Route::get('/find', function(){
+//     $meeting = Meeting::find(1);
 
-    return $meeting->title;
+//     return $meeting->title;
 
 
-});
+// });
+
+// One to Many relationship
+
+// Route::get('/meetings', function(){
+//     $user = User::find(1);
+
+//     foreach($user->meetings as $meeting){
+//         echo $meeting->title . "<br>";
+//     }
+
+// });
 
 
 

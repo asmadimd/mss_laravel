@@ -112,4 +112,8 @@ class User extends Authenticatable
     {
         return $this->profiles()->detach($profile);
     }
+
+    public function meetings(){
+        return $this->hasMany('App\Meeting');
+    }
 }

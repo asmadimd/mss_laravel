@@ -14,7 +14,10 @@ class MeetingController extends Controller
      */
     public function index()
     {
-        return "this is an index page";
+
+        $meetings = Meeting::all();
+
+        return view('meeting.index', compact('meetings'));
     }
 
     /**
@@ -46,6 +49,7 @@ class MeetingController extends Controller
         $input['user_id'] = $request->user_id;
 
         Meeting::create($request->all());
+        return redirect('/meeting');
     }
 
     /**
@@ -56,7 +60,9 @@ class MeetingController extends Controller
      */
     public function show($id)
     {
-        //
+        $meetings = Meeting::findOrFail($id);
+
+        return view('meeting.show', compact('meetings'));
     }
 
     /**
@@ -67,7 +73,9 @@ class MeetingController extends Controller
      */
     public function edit($id)
     {
-        return "this is edit function" . $id;
+        $meetings = Meeting::findOrFail($id);
+
+        return view('meeting.edit', compact('meetings'));
     }
 
     /**
@@ -79,7 +87,11 @@ class MeetingController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $meeting = Meeting::findOrFail($id);
+
+        $meeting->update($request->all());
+
+        return redirect('/meeting');
     }
 
     /**

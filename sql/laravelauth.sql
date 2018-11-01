@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 30, 2018 at 04:55 PM
+-- Generation Time: Nov 01, 2018 at 03:39 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.1.21
 
@@ -607,7 +607,30 @@ INSERT INTO `laravel_logger_activity` (`id`, `description`, `userType`, `userId`
 (521, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-10-30 07:41:18', '2018-10-30 07:41:18', NULL),
 (522, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-10-30 07:45:04', '2018-10-30 07:45:04', NULL),
 (523, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-10-30 07:51:50', '2018-10-30 07:51:50', NULL),
-(524, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-10-30 07:53:39', '2018-10-30 07:53:39', NULL);
+(524, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-10-30 07:53:39', '2018-10-30 07:53:39', NULL),
+(525, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-10-30 08:04:46', '2018-10-30 08:04:46', NULL),
+(526, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-10-30 08:05:45', '2018-10-30 08:05:45', NULL),
+(527, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-10-30 08:08:14', '2018-10-30 08:08:14', NULL),
+(528, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-10-30 08:08:23', '2018-10-30 08:08:23', NULL),
+(529, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-01 03:21:25', '2018-11-01 03:21:25', NULL),
+(530, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-01 03:21:26', '2018-11-01 03:21:26', NULL),
+(531, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-01 03:52:56', '2018-11-01 03:52:56', NULL),
+(532, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-01 04:14:17', '2018-11-01 04:14:17', NULL),
+(533, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting', 'GET', '2018-11-01 04:38:14', '2018-11-01 04:38:14', NULL),
+(534, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/4', 'GET', '2018-11-01 04:49:21', '2018-11-01 04:49:21', NULL),
+(535, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1', 'GET', '2018-11-01 05:27:15', '2018-11-01 05:27:15', NULL),
+(536, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1', 'GET', '2018-11-01 05:27:50', '2018-11-01 05:27:50', NULL),
+(537, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1', 'GET', '2018-11-01 05:28:41', '2018-11-01 05:28:41', NULL),
+(538, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1', 'GET', '2018-11-01 05:29:15', '2018-11-01 05:29:15', NULL),
+(539, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1', 'GET', '2018-11-01 05:29:42', '2018-11-01 05:29:42', NULL),
+(540, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1', 'GET', '2018-11-01 05:30:55', '2018-11-01 05:30:55', NULL),
+(541, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1', 'GET', '2018-11-01 05:32:09', '2018-11-01 05:32:09', NULL),
+(542, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-01 05:34:13', '2018-11-01 05:34:13', NULL),
+(543, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-01 05:35:55', '2018-11-01 05:35:55', NULL),
+(544, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'GET', '2018-11-01 05:39:30', '2018-11-01 05:39:30', NULL),
+(545, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting', 'GET', '2018-11-01 05:42:01', '2018-11-01 05:42:01', NULL),
+(546, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-01 05:49:12', '2018-11-01 05:49:12', NULL),
+(547, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-01 06:31:12', '2018-11-01 06:31:12', NULL);
 
 -- --------------------------------------------------------
 
@@ -631,11 +654,14 @@ CREATE TABLE `meetings` (
 --
 
 INSERT INTO `meetings` (`id`, `title`, `agenda`, `option`, `date`, `created_at`, `updated_at`, `user_id`) VALUES
-(1, 'test title', 'test agenda', 'formal', NULL, NULL, NULL, 1),
-(2, 'test title', 'test agenda2', 'formal', '2018-10-31 00:00:00', '2018-10-30 16:00:00', NULL, 1),
-(3, 'abc', 'abc', 'abc', NULL, NULL, NULL, 1),
+(1, 'test title', 'edited meeting', 'Formal', '2018-11-22 00:00:00', NULL, '2018-11-01 06:33:24', 1),
+(2, 'test title edited working', 'abc123321', 'Formal', '2018-11-19 00:00:00', '2018-10-30 16:00:00', '2018-11-01 06:34:10', 1),
+(3, 'abc123', 'abc123', 'Formal', '2018-11-28 00:00:00', NULL, '2018-11-01 06:34:36', 1),
 (4, 'meeting', 'agenda', 'formal', '2018-10-31 00:00:00', '2018-10-30 07:45:31', '2018-10-30 07:45:31', 1),
-(5, 'abc meeting', 'agenda test', 'Formal', '2018-10-31 00:00:00', '2018-10-30 07:52:45', '2018-10-30 07:52:45', 1);
+(5, 'abc meeting', 'agenda test', 'Formal', '2018-10-31 00:00:00', '2018-10-30 07:52:45', '2018-10-30 07:52:45', 1),
+(6, 'meeting', 'agenda', 'Formal', '2018-11-06 00:00:00', '2018-11-01 03:22:06', '2018-11-01 03:22:06', 1),
+(7, 'test', 'agenda', 'Formal', '2018-11-15 00:00:00', '2018-11-01 04:14:40', '2018-11-01 04:14:40', 1),
+(8, 'this is edited meeting title', 'agenda title edit', 'Formal', '2018-11-22 00:00:00', '2018-11-01 06:14:11', '2018-11-01 06:14:11', 1);
 
 -- --------------------------------------------------------
 
@@ -956,7 +982,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `first_name`, `last_name`, `email`, `password`, `remember_token`, `activated`, `token`, `signup_ip_address`, `signup_confirmation_ip_address`, `signup_sm_ip_address`, `admin_ip_address`, `updated_ip_address`, `deleted_ip_address`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'admin', 'admin', 'ubd', 'admin@ubd.edu.bn', '$2y$10$w.kIbJjJ3y.GWVsc1N5eyu3jM6LRS4L.5bXv1fxK7UnNSdRksyQdC', 'wVgdEVYZ2qLkErATUyLr3GeWgg2Fr9PNRoBbF51ImE8ds2kn2JxxshPDOTRF', 1, 'SvdrLQJAJRfkHjfFTEIFzUBQiWxdPDl1O07J3mT1TyQ7YxduzegEeAZSAe8lsFnm', NULL, '165.250.108.4', NULL, '244.117.235.149', '0.0.0.0', NULL, '2018-09-29 08:17:00', '2018-09-29 09:46:27', NULL),
+(1, 'admin', 'admin', 'ubd', 'admin@ubd.edu.bn', '$2y$10$w.kIbJjJ3y.GWVsc1N5eyu3jM6LRS4L.5bXv1fxK7UnNSdRksyQdC', 'sPJZRc1WoqI9GKOcit2CYxFfs3bCbBN8Cn6cqqaEClWtKeABt6XZ7SQYgXwo', 1, 'SvdrLQJAJRfkHjfFTEIFzUBQiWxdPDl1O07J3mT1TyQ7YxduzegEeAZSAe8lsFnm', NULL, '165.250.108.4', NULL, '244.117.235.149', '0.0.0.0', NULL, '2018-09-29 08:17:00', '2018-09-29 09:46:27', NULL),
 (6, '15b3089', 'Mason', 'ubd', '15b3089@ubd.edu.bn', '$2y$10$Qq48dl74LBs4hd6E1r3zaeojt4KxZj1Buuf4LBP7kYelvZF3U3F3G', NULL, 1, 'QZnzaihSzmTf03dk88BNIjHAcRvnPIdQuuivnUwe8BtsWd8rsOhDiroTjuJAjqRp', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 22:56:58', '2018-10-18 22:56:58', NULL),
 (7, '14b3370', 'Asmadi', 'ubd', '14b3370@ubd.edu.bn', '$2y$10$b0kL2w9qih76NzIcUhpXTO0kRIm11w6xOBuIhDiDyQPApKuOIOCFK', 'rj0RMsoZA48o9MsRjxuAWRDNsgDivDGixYQ15ETbDC1UCc9Du89BPHcp2G1H', 1, '2PTZiVLmKCgaXuUz1CB1cS5aKLZKzcrhk04WjbjAA9cJVT5UN8vnGsdsF9i7enhf', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 23:02:12', '2018-10-18 23:02:12', NULL),
 (8, 'arosha.senanayake', NULL, NULL, 'arosha.senanayake@ubd.edu.bn', '$2y$10$8bCOS6evELP6EEDDN1rDQu66H6u2HvncqSl3hDTPltz3Rczyt40im', NULL, 1, 'l8qEHg4rpETyIy8TpeYOIAIHGGlmeDs3Z7AdrXi4JeUrCk8SsFqXSHeM1ibz5kIx', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 23:08:22', '2018-10-18 23:08:22', NULL),
@@ -1125,13 +1151,13 @@ ALTER TABLE `laravel2step`
 -- AUTO_INCREMENT for table `laravel_logger_activity`
 --
 ALTER TABLE `laravel_logger_activity`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=525;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=548;
 
 --
 -- AUTO_INCREMENT for table `meetings`
 --
 ALTER TABLE `meetings`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `migrations`
