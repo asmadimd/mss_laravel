@@ -44,7 +44,17 @@
                         <label for="exampleFormControlInput1">Participant</label>
                         <input type="text" name="user_id" class="form-control" id="exampleFormControlInput1" placeholder="Enter participant" value="{{$meetings->user_id}}" required>
                       </div>
-                      <button type="submit" class="btn btn-success"><right>Edit</right></button>
+                      <button type="submit" class="btn btn-success" value="UPDATE">Edit</button>
+                    </form>
+
+
+                    <form method="post" action="/meeting/{{$meetings->id}}">
+                      {{csrf_field()}}
+
+                      <input type="hidden" name="_method" value="DELETE">
+
+                      <button type="submit" class="btn btn-danger" value="DELETE">Delete</button>
+
                     </form>
                 </div>
             </div>

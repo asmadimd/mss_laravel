@@ -102,7 +102,9 @@ class MeetingController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $meetings = Meeting::whereId($id)->delete();
+
+        return redirect('/meeting');
     }
 
     public function feedback(){
