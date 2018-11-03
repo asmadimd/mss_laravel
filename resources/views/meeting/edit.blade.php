@@ -24,7 +24,7 @@
                    {{csrf_field()}}
                       <div class="form-group">
                         <label for="exampleFormControlInput1">Meeting Title</label>
-                        <input type="text" name="title" class="form-control" id="exampleFormControlInput1" value="{{$meetings->title}}" required>
+                        <input type="text" name="title" class="form-control" id="exampleFormControlInput1" value="{{$meetings->title}}" required></input>
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlTextarea1">Agenda</label>
@@ -38,11 +38,11 @@
                         </select>
                       </div>
                       <div class="form-group">
-                        <input type="date" name="date" class="form-control" id="exampleFormControlInput1" value="{{$meetings->date}}" required>
+                        <input type="date" name="date" class="form-control" id="exampleFormControlInput1" value="{{$meetings->date}}" required></input>
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlInput1">Participant</label>
-                        <input type="text" name="user_id" class="form-control" id="exampleFormControlInput1" placeholder="Enter participant" value="{{$meetings->user_id}}" required>
+                        <input type="text" name="user_id" class="form-control" id="exampleFormControlInput1" placeholder="Enter participant" value="{{$meetings->user_id}}" required></input>
                       </div>
                       <button type="submit" class="btn btn-success" value="UPDATE">Edit</button>
                     </form>
