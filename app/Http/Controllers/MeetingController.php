@@ -45,7 +45,8 @@ class MeetingController extends Controller
         $input['title'] = $request->title;
         $input['agenda'] = $request->agenda;
         $input['option'] = $request->option;
-        $input['date'] = $request->date;
+        $input['start'] = $request->start;
+        $input['finish'] = $request->finish;
         $input['user_id'] = $request->user_id;
 
         Meeting::create($request->all());

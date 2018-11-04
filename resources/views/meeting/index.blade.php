@@ -21,6 +21,8 @@
                   <th scope="col">Title</th>
                   <th scope="col">Option</th>
                   <th scope="col">Date</th>
+                  <th scope="col">Start</th>
+                  <th scope="col">End</th>
                   <th scope="col">Manage</th>
                   </tr>
                 </thead>
@@ -31,6 +33,8 @@
                     <td>{{$meeting->title}} </a></td>
                     <td>{{$meeting->option}}</td>
                     <td>{{$meeting->date}}</td>
+                    <td>{{$meeting->start}}</td>
+                    <td>{{$meeting->finish}}</td>
                     <td><a href="{{route('meeting.show', $meeting->id)}}">Show</a> | 
                     
                     <a href="{{route('meeting.edit', $meeting->id)}}">Edit</a>

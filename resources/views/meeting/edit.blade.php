@@ -41,6 +41,51 @@
                         <input type="date" name="date" class="form-control" id="exampleFormControlInput1" value="{{$meetings->date}}" required></input>
                       </div>
                       <div class="form-group">
+                        <label for="exampleFormControlSelect1">Start time</label>
+                        <select class="form-control" type="text" name="start" id="exampleFormControlSelect1" required>
+                          <option>07:30</option>
+                          <option>08:00</option>
+                          <option>08:30</option>
+                          <option>09:00</option>
+                          <option>09:30</option>
+                          <option>10:00</option>
+                          <option>11:30</option>
+                          <option>12:00</option>
+                          <option>12:30</option>
+                          <option>13:00</option>
+                          <option>13:30</option>
+                          <option>14:00</option>
+                          <option>14:30</option>
+                          <option>15:00</option>
+                          <option>15:30</option>
+                          <option>16:00</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlSelect1">End time</label>
+                        <select class="form-control" type="text" name="finish" id="exampleFormControlSelect1" required>
+                          <option>08:00</option>
+                          <option>08:30</option>
+                          <option>09:00</option>
+                          <option>09:30</option>
+                          <option>10:00</option>
+                          <option>11:30</option>
+                          <option>12:00</option>
+                          <option>12:30</option>
+                          <option>13:00</option>
+                          <option>13:30</option>
+                          <option>14:00</option>
+                          <option>14:30</option>
+                          <option>15:00</option>
+                          <option>15:30</option>
+                          <option>16:00</option>
+                          <option>16:30</option>
+                        </select>
+                      </div>
+
+
+
+                      <div class="form-group">
                         <label for="exampleFormControlInput1">Participant</label>
                         <input type="text" name="user_id" class="form-control" id="exampleFormControlInput1" placeholder="Enter participant" value="{{$meetings->user_id}}" required></input>
                       </div>
