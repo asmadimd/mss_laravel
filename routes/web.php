@@ -28,10 +28,15 @@ Route::get('/meeting/create', 'MeetingController@create');
 Route::get('/meeting/feedback', 'MeetingController@feedback');
 
 
-
 //Timeslot resource
 Route::resource('timeslot', 'TimeslotsController');
 Route::get('/timeslot/', 'TimeslotsController@index');
+
+//Email invitation
+Route::get('/send/', 'MailController@send');
+//Invitation successful
+Route::get('/meeting/email', 'MeetingController@email');
+
 
 
 /*

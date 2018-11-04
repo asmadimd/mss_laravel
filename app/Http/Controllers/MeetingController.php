@@ -109,6 +109,10 @@ class MeetingController extends Controller
     }
 
     public function feedback(){
-        return view('meeting/feedback');
+        return view('meeting.feedback');
+    }
+
+    public function email(){
+        return view('meeting.email');
     }
 }

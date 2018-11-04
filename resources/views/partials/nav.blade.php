@@ -33,8 +33,8 @@
                                 @lang('titles.adminViewFeedback')
                             </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item {{ Request::is('active-users') ? 'active' : null }}" href="{{ url('/active-users') }}">
-                                @lang('titles.activeUsers')
+                            <a class="dropdown-item {{ Request::is('send') ? 'active' : null }}" href="{{ url('/send') }}">
+                                @lang('titles.adminSend')
                             </a>
                         </div>
                     </li>

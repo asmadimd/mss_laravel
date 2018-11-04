@@ -16,6 +16,7 @@ return [
     'adminDropdownNav'  => 'Admin',
     'adminMeetingNav'  => 'Meeting',
     'adminMeetingIndex' => 'Manage Meeting',
+    'adminSend' => 'Send Email Invitation',
 
     'activation'        => 'Registration Started  | Activation Required',
     'exceeded'          => 'Activation Error',
