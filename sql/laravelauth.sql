@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 01, 2018 at 03:39 PM
+-- Generation Time: Nov 04, 2018 at 03:03 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.1.21
 
@@ -631,6 +631,21 @@ INSERT INTO `laravel_logger_activity` (`id`, `description`, `userType`, `userId`
 (545, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting', 'GET', '2018-11-01 05:42:01', '2018-11-01 05:42:01', NULL),
 (546, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-01 05:49:12', '2018-11-01 05:49:12', NULL),
 (547, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-01 06:31:12', '2018-11-01 06:31:12', NULL);
+INSERT INTO `laravel_logger_activity` (`id`, `description`, `userType`, `userId`, `route`, `ipAddress`, `userAgent`, `locale`, `referer`, `methodType`, `created_at`, `updated_at`, `deleted_at`) VALUES
+(548, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting', 'GET', '2018-11-01 06:50:51', '2018-11-01 06:50:51', NULL),
+(549, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-11-01 06:51:29', '2018-11-01 06:51:29', NULL),
+(550, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-03 02:22:28', '2018-11-03 02:22:28', NULL),
+(551, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-03 02:22:30', '2018-11-03 02:22:30', NULL),
+(552, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1/edit', 'GET', '2018-11-03 02:39:04', '2018-11-03 02:39:04', NULL),
+(553, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/9', 'GET', '2018-11-03 03:29:57', '2018-11-03 03:29:57', NULL),
+(554, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1/edit', 'GET', '2018-11-03 03:48:08', '2018-11-03 03:48:08', NULL),
+(555, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-11-03 04:00:16', '2018-11-03 04:00:16', NULL),
+(556, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-03 17:45:12', '2018-11-03 17:45:12', NULL),
+(557, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-03 17:45:13', '2018-11-03 17:45:13', NULL),
+(558, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-11-03 19:40:50', '2018-11-03 19:40:50', NULL),
+(559, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1/edit', 'GET', '2018-11-03 19:44:30', '2018-11-03 19:44:30', NULL),
+(560, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-04 06:00:18', '2018-11-04 06:00:18', NULL),
+(561, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-04 06:00:19', '2018-11-04 06:00:19', NULL);
 
 -- --------------------------------------------------------
 
@@ -643,7 +658,9 @@ CREATE TABLE `meetings` (
   `title` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `agenda` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `option` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `date` datetime DEFAULT NULL,
+  `date` date DEFAULT NULL,
+  `start` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `finish` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `user_id` int(10) UNSIGNED NOT NULL
@@ -653,15 +670,13 @@ CREATE TABLE `meetings` (
 -- Dumping data for table `meetings`
 --
 
-INSERT INTO `meetings` (`id`, `title`, `agenda`, `option`, `date`, `created_at`, `updated_at`, `user_id`) VALUES
-(1, 'test title', 'edited meeting', 'Formal', '2018-11-22 00:00:00', NULL, '2018-11-01 06:33:24', 1),
-(2, 'test title edited working', 'abc123321', 'Formal', '2018-11-19 00:00:00', '2018-10-30 16:00:00', '2018-11-01 06:34:10', 1),
-(3, 'abc123', 'abc123', 'Formal', '2018-11-28 00:00:00', NULL, '2018-11-01 06:34:36', 1),
-(4, 'meeting', 'agenda', 'formal', '2018-10-31 00:00:00', '2018-10-30 07:45:31', '2018-10-30 07:45:31', 1),
-(5, 'abc meeting', 'agenda test', 'Formal', '2018-10-31 00:00:00', '2018-10-30 07:52:45', '2018-10-30 07:52:45', 1),
-(6, 'meeting', 'agenda', 'Formal', '2018-11-06 00:00:00', '2018-11-01 03:22:06', '2018-11-01 03:22:06', 1),
-(7, 'test', 'agenda', 'Formal', '2018-11-15 00:00:00', '2018-11-01 04:14:40', '2018-11-01 04:14:40', 1),
-(8, 'this is edited meeting title', 'agenda title edit', 'Formal', '2018-11-22 00:00:00', '2018-11-01 06:14:11', '2018-11-01 06:14:11', 1);
+INSERT INTO `meetings` (`id`, `title`, `agenda`, `option`, `date`, `start`, `finish`, `created_at`, `updated_at`, `user_id`) VALUES
+(1, 'test title', 'abcde12345', 'Formal', '2018-11-22', '09:00', '09:30', NULL, '2018-11-03 19:48:06', 1),
+(2, 'test title edited working', 'this is an agenda test', 'Formal', '2018-11-19', '10:00', '11:30', '2018-10-30 16:00:00', '2018-11-03 19:50:35', 1),
+(4, 'meeting', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac hendrerit metus. Donec vel dui auctor,', 'Formal', '2018-11-29', '14:00', '15:00', '2018-10-30 07:45:31', '2018-11-03 19:53:11', 1),
+(5, 'abc meeting', 'Pellentesque dictum magna sed lacus rhoncus, sed tristique enim lacinia. Praesent porttitor eget arcu sit amet malesuada. Morbi eget mauris eros.', 'Formal', '2018-11-21', '11:30', '12:00', '2018-10-30 07:52:45', '2018-11-03 20:04:16', 1),
+(6, 'meeting', 'sed tristique enim lacinia. Praesent porttitor eget arcu sit amet malesuada. Morbi eget mauris eros. Morbi ut risus tincidunt quam viverra fermentum.', 'Formal', '2018-11-06', '09:30', '10:00', '2018-11-01 03:22:06', '2018-11-03 20:05:04', 1),
+(8, 'this is edited meeting title', 'Praesent ac hendrerit metus. Donec vel dui auctor, malesuada dui a, rutrum dolor. Pellentesque dictum magna sed lacus rhoncus, sed tristique enim lacinia.', 'Formal', '2018-11-22', '09:30', '10:00', '2018-11-01 06:14:11', '2018-11-03 20:05:33', 1);
 
 -- --------------------------------------------------------
 
@@ -1151,7 +1166,7 @@ ALTER TABLE `laravel2step`
 -- AUTO_INCREMENT for table `laravel_logger_activity`
 --
 ALTER TABLE `laravel_logger_activity`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=548;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=562;
 
 --
 -- AUTO_INCREMENT for table `meetings`

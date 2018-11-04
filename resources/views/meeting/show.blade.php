@@ -18,6 +18,8 @@
                 <p>  Agenda: {{$meetings->agenda}}</p></br>
                 <p>  Option: {{$meetings->option}}</p></br>
                 <p>  Date: {{$meetings->date}}</p></br>
+                <p>  Start: {{$meetings->start}}</p></br>
+                <p>  Finish: {{$meetings->finish}}</p></br>
 
 
                 
