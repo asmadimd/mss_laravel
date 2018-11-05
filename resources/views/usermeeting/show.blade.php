@@ -30,7 +30,8 @@
         <div class="col-md-10 offset-md-1">
             <div class="card">
                 <div class="card-header"><h3>Feedback</h3></div>
-                <p>  Feedback</p></div>br>
+                <p>  Attend meeting? <button type="button" class="btn btn-primary">Yes</button> &nbsp; <button type="button" class="btn btn-secondary">No</button></p>
+                </div>
             </div>
         </div>
     </div>
