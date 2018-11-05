@@ -41,6 +41,23 @@
                 @endrole
             </ul>
 
+            {{-- Left Side Of Navbar --}}
+            <ul class="navbar-nav mr-auto">
+                @role('lecturer, student') 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            User
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item {{ Request::is('usermeeting.index') ? 'active' : null }}" href="{{ url('usermeeting/') }}">
+                                @lang('titles.userMeeting')
+                            </a>
+                        </div>
+                    </li>
+                @endrole
+            </ul>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             {{-- Left Side Of Navbar --}}
             <ul class="navbar-nav mr-auto">

@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use Auth;
 use App\Meeting;
 use App\User;
 use Illuminate\Http\Request;
 
-class MeetingController extends Controller
+class UserMeetingController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,30 +16,17 @@ class MeetingController extends Controller
      */
     public function index()
     {
-        $meetings = Meeting::all();
 
-        return view('meeting.index', compact('meetings'));
+       //$meetings = Meeting::all();
+
+        //$user = User::find($id);
+        $currentuserid = Auth::user()->id;
+        $meetings = Meeting::where("user_id", "=", $currentuserid)->get();
+
+
+        return view('usermeeting.index', compact('meetings'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //return view('meeting.create');
-
-        $users = User::all(['email', 'id']);
-        return view('meeting.create', compact('users', $users));
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         //get request from create form
@@ -66,7 +54,7 @@ class MeetingController extends Controller
     {
         $meetings = Meeting::findOrFail($id);
 
-        return view('meeting.show', compact('meetings'));
+        return view('usermeeting.show', compact('meetings'));
     }
 
     /**

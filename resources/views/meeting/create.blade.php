@@ -79,10 +79,22 @@
                           <option>16:30</option>
                         </select>
                       </div>
-                      <div class="form-group">
+                      <!--<div class="form-group">
                         <label for="exampleFormControlInput1">Participant</label>
                         <input type="text" name="user_id" class="form-control" id="exampleFormControlInput1" placeholder="Enter participant" required></input>
+                      </div>-->
+                      <div class="form-group">
+                      {!! Form::Label('user', 'Participant:') !!}
+                        
+                        <select class="form-control" name="user_id">
+                        @foreach($users as $user)
+                          <option value="{{$user->id}}">{{$user->email}}</option>
+                        @endforeach
+                        
+                        </select>
                       </div>
+
+
                       <button type="submit" class="btn btn-success"><right>Create</right></button>
                     </form>
                 </div>

@@ -31,6 +31,7 @@ return [
     'adminTimeslotFinder' => 'Timeslot Finder',
     'adminViewAll' => 'All meeting',
     'adminEditMeeting' => 'Edit meeting',
+    'userMeeting' => 'View Meeting',
 
     'adminThemesList'   => 'Themes',
     'adminThemesAdd'    => 'Add New Theme',

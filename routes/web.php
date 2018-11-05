@@ -27,6 +27,10 @@ Route::get('/meeting/', 'MeetingController@index');
 Route::get('/meeting/create', 'MeetingController@create');
 Route::get('/meeting/feedback', 'MeetingController@feedback');
 
+//User Meeting resources
+Route::resource('usermeeting', 'UserMeetingController');
+Route::get('/usermeeting/', 'UserMeetingController@index');
+
 
 //Timeslot resource
 Route::resource('timeslot', 'TimeslotsController');

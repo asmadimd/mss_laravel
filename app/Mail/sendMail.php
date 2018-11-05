@@ -28,7 +28,7 @@ class sendMail extends Mailable
      */
     public function build()
     {
-        $emails = ['14b3370@ubd.edu.bn', 'cgtgpfan@gmail.com'];
+        $emails = ['14b3370@ubd.edu.bn', '14b8338@ubd.edu.bn', '15b8039@ubd.edu.bn'];
         $this->view('mail')->from('mss.system2018@gmail.com', 'UBD MSS System');
         return $this->view('mail')->to($emails);
     }

@@ -20,11 +20,17 @@
                 <p>  Date: {{$meetings->date}}</p></br>
                 <p>  Start: {{$meetings->start}}</p></br>
                 <p>  Finish: {{$meetings->finish}}</p></br>
-                <p>  Participant: {{$meetings->user_id}}</p></br>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-                
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="card">
+                <div class="card-header"><h3>Feedback</h3></div>
+                <p>  Feedback</p></div>br>
             </div>
         </div>
     </div>
