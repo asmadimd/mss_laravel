@@ -42,7 +42,7 @@
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlSelect1">Start time</label>
-                        <select class="form-control" type="text" name="start" id="exampleFormControlSelect1" required>
+                        <select class="form-control" type="text" name="start" id="exampleFormControlSelect1" value="{{$meetings->start}}" required>
                           <option>07:30</option>
                           <option>08:00</option>
                           <option>08:30</option>
