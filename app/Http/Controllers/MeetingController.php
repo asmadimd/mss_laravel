@@ -79,7 +79,11 @@ class MeetingController extends Controller
     {
         $meetings = Meeting::findOrFail($id);
 
-        return view('meeting.edit', compact('meetings'));
+        $users = User::all(['email', 'id']);
+        //return view('meeting.create', compact('users', $users));
+
+        //multiple compact using array for meetings and users
+        return view('meeting.edit', array('users' => $users, 'meetings' => $meetings));
     }
 
     /**

@@ -28,7 +28,7 @@
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlTextarea1">Agenda</label>
-                        <textarea class="form-control" name="agenda" id="exampleFormControlTextarea1" rows="3" value="{{$meetings->agenda}}" required></textarea>
+                        <textarea class="form-control" name="agenda" id="exampleFormControlTextarea1" rows="3">{{ $meetings->agenda }}</textarea>
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlSelect1">Meeting options</label>
@@ -85,9 +85,19 @@
 
 
 
-                      <div class="form-group">
+                      <!--<div class="form-group">
                         <label for="exampleFormControlInput1">Participant</label>
                         <input type="text" name="user_id" class="form-control" id="exampleFormControlInput1" placeholder="Enter participant" value="{{$meetings->user_id}}" required></input>
+                      </div>-->
+                      <div class="form-group">
+                      {!! Form::Label('user', 'Participant:') !!}
+                        
+                        <select class="form-control" name="user_id">
+                        @foreach($users as $user)
+                          <option value="{{$user->id}}">{{$user->email}}</option>
+                        @endforeach
+                        
+                        </select>
                       </div>
                       <button type="submit" class="btn btn-success" value="UPDATE">Edit</button>
                     </form>
