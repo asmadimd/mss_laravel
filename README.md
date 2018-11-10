@@ -12,6 +12,7 @@
 - [Seeded Permissions](#seeded-permissions)
 - [Import SQL Files](#import-sql-files)
 - [Run MSS Application](#run-mss-application)
+- [Seeded User](#seeded-user)
 - [Routes](#routes)
 - [Environment File](#environment-file)
 - [Updates](#updates)
@@ -119,7 +120,17 @@ php artisan vendor:publish --tag=laravel2step
 
 1. Download/ Clone, and paste project file in htdocs root
 2. Configure .env file to match with your mysql/phpmyadmin username and password
-3. Run MSS application by command in terminal/ cmd: php artisan serve
+3. Open XAMPP, and starts apache and MySQL
+4. Run MSS application by command in terminal/ cmd: php artisan serve
+5. Visit localhost:8000 on your machine.
+
+##### Seeded User
+
+1. Remember to import SQL file laravelauth.sql first at /sql at project root.
+2. Admin User: admin@ubd.edu.bn
+3. Lecturer: lecturer@ubd.edu.bn
+4. Student: student@ubd.edu.bn
+5. Password for all users above is 'password' without quote.
 
 ### Routes
 

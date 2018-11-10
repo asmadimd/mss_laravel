@@ -17,6 +17,8 @@ return [
     'adminMeetingNav'  => 'Meeting',
     'adminMeetingIndex' => 'Manage Meeting',
     'adminSend' => 'Send Email Invitation',
+    'aboutMSS' => 'About UBD MSS',
+    'about' => 'About Us',
 
     'activation'        => 'Registration Started  | Activation Required',
     'exceeded'          => 'Activation Error',

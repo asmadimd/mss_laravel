@@ -28,10 +28,10 @@
                             <a class="dropdown-item {{ Request::is('timeslot') ? 'active' : null }}" href="{{ url('/timeslot/') }}">
                                 @lang('titles.adminTimeslotFinder')
                             </a>
-                            <div class="dropdown-divider"></div>
+                            <!--<div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('meeting.feedback') ? 'active' : null }}" href="{{ url('meeting/feedback') }}">
                                 @lang('titles.adminViewFeedback')
-                            </a>
+                            </a>-->
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item {{ Request::is('send') ? 'active' : null }}" href="{{ url('/send') }}">
                                 @lang('titles.adminSend')
@@ -84,6 +84,7 @@
             <ul class="navbar-nav ml-auto">
                 {{-- Authentication Links --}}
                 @guest
+                    <li><a class="nav-link" href="{{ url('about') }}">{{ trans('titles.about') }}</a></li>
                     <li><a class="nav-link" href="{{ route('login') }}">{{ trans('titles.login') }}</a></li>
                 @else
                     <li class="nav-item dropdown">
@@ -98,6 +99,10 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item {{ Request::is('profile/'.Auth::user()->name, 'profile/'.Auth::user()->name . '/edit') ? 'active' : null }}" href="{{ url('/profile/'.Auth::user()->name) }}">
                                 @lang('titles.profile')
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item {{ Request::is('about.index', 'about.index' . Auth::user()->id, 'about.index' . Auth::user()->id . 'about.index') ? 'active' : null }}" href="{{ url('about/') }}">
+                                @lang('titles.about')
                             </a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{ route('logout') }}"

@@ -41,6 +41,8 @@ Route::get('/send/', 'MailController@send');
 //Invitation successful
 Route::get('/meeting/email', 'MeetingController@email');
 
+Route::get('/about/', 'AboutController@index');
+
 
 
 /*
