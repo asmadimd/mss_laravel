@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 04, 2018 at 03:03 PM
+-- Generation Time: Nov 10, 2018 at 04:46 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.1.21
 
@@ -645,7 +645,142 @@ INSERT INTO `laravel_logger_activity` (`id`, `description`, `userType`, `userId`
 (558, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-11-03 19:40:50', '2018-11-03 19:40:50', NULL),
 (559, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1/edit', 'GET', '2018-11-03 19:44:30', '2018-11-03 19:44:30', NULL),
 (560, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-04 06:00:18', '2018-11-04 06:00:18', NULL),
-(561, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-04 06:00:19', '2018-11-04 06:00:19', NULL);
+(561, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-04 06:00:19', '2018-11-04 06:00:19', NULL),
+(562, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting', 'GET', '2018-11-04 06:37:01', '2018-11-04 06:37:01', NULL),
+(563, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 06:41:46', '2018-11-04 06:41:46', NULL),
+(564, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 06:47:53', '2018-11-04 06:47:53', NULL),
+(565, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 06:58:55', '2018-11-04 06:58:55', NULL),
+(566, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 07:01:47', '2018-11-04 07:01:47', NULL),
+(567, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 07:09:57', '2018-11-04 07:09:57', NULL),
+(568, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 07:19:10', '2018-11-04 07:19:10', NULL),
+(569, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 07:22:36', '2018-11-04 07:22:36', NULL),
+(570, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 07:41:01', '2018-11-04 07:41:01', NULL),
+(571, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 07:47:50', '2018-11-04 07:47:50', NULL),
+(572, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 07:49:27', '2018-11-04 07:49:27', NULL),
+(573, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 09:14:39', '2018-11-04 09:14:39', NULL),
+(574, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-11-04 09:16:09', '2018-11-04 09:16:09', NULL),
+(575, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 09:18:17', '2018-11-04 09:18:17', NULL),
+(576, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 09:27:12', '2018-11-04 09:27:12', NULL),
+(577, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 10:01:03', '2018-11-04 10:01:03', NULL),
+(578, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 10:04:22', '2018-11-04 10:04:22', NULL),
+(579, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 10:34:53', '2018-11-04 10:34:53', NULL),
+(580, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-04 10:42:35', '2018-11-04 10:42:35', NULL),
+(581, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/send', 'GET', '2018-11-04 10:43:29', '2018-11-04 10:43:29', NULL),
+(582, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 00:28:54', '2018-11-05 00:28:54', NULL),
+(583, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 00:28:56', '2018-11-05 00:28:56', NULL),
+(584, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 00:44:43', '2018-11-05 00:44:43', NULL),
+(585, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 00:47:28', '2018-11-05 00:47:28', NULL),
+(586, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 00:47:56', '2018-11-05 00:47:56', NULL),
+(587, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 01:05:19', '2018-11-05 01:05:19', NULL),
+(588, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 01:05:42', '2018-11-05 01:05:42', NULL),
+(589, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:05:43', '2018-11-05 01:05:43', NULL),
+(590, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:29:15', '2018-11-05 01:29:15', NULL),
+(591, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:30:58', '2018-11-05 01:30:58', NULL),
+(592, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:33:10', '2018-11-05 01:33:10', NULL),
+(593, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:34:00', '2018-11-05 01:34:00', NULL),
+(594, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:34:48', '2018-11-05 01:34:48', NULL),
+(595, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 01:35:01', '2018-11-05 01:35:01', NULL),
+(596, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 01:35:11', '2018-11-05 01:35:11', NULL),
+(597, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:35:13', '2018-11-05 01:35:13', NULL),
+(598, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 01:35:20', '2018-11-05 01:35:20', NULL),
+(599, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 01:35:28', '2018-11-05 01:35:28', NULL),
+(600, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:35:29', '2018-11-05 01:35:29', NULL),
+(601, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:36:44', '2018-11-05 01:36:44', NULL),
+(602, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:38:14', '2018-11-05 01:38:14', NULL),
+(603, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:40:31', '2018-11-05 01:40:31', NULL),
+(604, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:41:00', '2018-11-05 01:41:00', NULL),
+(605, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:41:36', '2018-11-05 01:41:36', NULL),
+(606, 'Viewed profile/14b3370', 'Registered', 7, 'http://localhost:8000/profile/14b3370', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'GET', '2018-11-05 01:41:46', '2018-11-05 01:41:46', NULL),
+(607, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/profile/14b3370', 'POST', '2018-11-05 01:42:21', '2018-11-05 01:42:21', NULL),
+(608, 'Logged In', 'Registered', 8, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 01:42:35', '2018-11-05 01:42:35', NULL),
+(609, 'Viewed home', 'Registered', 8, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:42:36', '2018-11-05 01:42:36', NULL),
+(610, 'Logged Out', 'Registered', 8, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 01:42:45', '2018-11-05 01:42:45', NULL),
+(611, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 01:42:55', '2018-11-05 01:42:55', NULL),
+(612, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:42:57', '2018-11-05 01:42:57', NULL),
+(613, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 01:43:10', '2018-11-05 01:43:10', NULL),
+(614, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 01:43:22', '2018-11-05 01:43:22', NULL),
+(615, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:43:23', '2018-11-05 01:43:23', NULL),
+(616, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:45:37', '2018-11-05 01:45:37', NULL),
+(617, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 01:46:03', '2018-11-05 01:46:03', NULL),
+(618, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 01:47:48', '2018-11-05 01:47:48', NULL),
+(619, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 01:47:59', '2018-11-05 01:47:59', NULL),
+(620, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 01:48:00', '2018-11-05 01:48:00', NULL),
+(621, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting', 'GET', '2018-11-05 02:06:16', '2018-11-05 02:06:16', NULL),
+(622, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 02:06:22', '2018-11-05 02:06:22', NULL),
+(623, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 02:06:30', '2018-11-05 02:06:30', NULL),
+(624, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 02:06:31', '2018-11-05 02:06:31', NULL),
+(625, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', NULL, 'GET', '2018-11-05 02:07:19', '2018-11-05 02:07:19', NULL),
+(626, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 02:46:03', '2018-11-05 02:46:03', NULL),
+(627, 'Logged In', 'Registered', 6, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 02:46:28', '2018-11-05 02:46:28', NULL),
+(628, 'Viewed home', 'Registered', 6, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 02:46:29', '2018-11-05 02:46:29', NULL),
+(629, 'Logged Out', 'Registered', 6, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/usermeeting', 'POST', '2018-11-05 02:48:58', '2018-11-05 02:48:58', NULL),
+(630, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 02:49:07', '2018-11-05 02:49:07', NULL),
+(631, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 02:49:08', '2018-11-05 02:49:08', NULL),
+(632, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/usermeeting', 'POST', '2018-11-05 02:49:22', '2018-11-05 02:49:22', NULL),
+(633, 'Logged In', 'Registered', 6, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 02:49:52', '2018-11-05 02:49:52', NULL),
+(634, 'Viewed home', 'Registered', 6, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 02:49:53', '2018-11-05 02:49:53', NULL),
+(635, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 09:23:55', '2018-11-05 09:23:55', NULL),
+(636, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 09:23:56', '2018-11-05 09:23:56', NULL),
+(637, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/usermeeting', 'POST', '2018-11-05 09:43:08', '2018-11-05 09:43:08', NULL),
+(638, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 09:43:21', '2018-11-05 09:43:21', NULL),
+(639, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 09:43:22', '2018-11-05 09:43:22', NULL),
+(640, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 09:43:28', '2018-11-05 09:43:28', NULL),
+(641, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 09:43:37', '2018-11-05 09:43:37', NULL),
+(642, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 09:43:38', '2018-11-05 09:43:38', NULL),
+(643, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-11-05 10:32:05', '2018-11-05 10:32:05', NULL),
+(644, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/2/edit', 'POST', '2018-11-05 11:31:45', '2018-11-05 11:31:45', NULL),
+(645, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 11:31:54', '2018-11-05 11:31:54', NULL),
+(646, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 11:31:55', '2018-11-05 11:31:55', NULL),
+(647, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/usermeeting', 'POST', '2018-11-05 11:41:51', '2018-11-05 11:41:51', NULL),
+(648, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 11:42:02', '2018-11-05 11:42:02', NULL),
+(649, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 11:42:03', '2018-11-05 11:42:03', NULL),
+(650, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/9/edit', 'GET', '2018-11-05 12:05:53', '2018-11-05 12:05:53', NULL),
+(651, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 12:05:58', '2018-11-05 12:05:58', NULL),
+(652, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 12:06:15', '2018-11-05 12:06:15', NULL),
+(653, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 12:06:16', '2018-11-05 12:06:16', NULL),
+(654, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 15:43:58', '2018-11-05 15:43:58', NULL),
+(655, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 15:43:59', '2018-11-05 15:43:59', NULL),
+(656, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/usermeeting', 'POST', '2018-11-05 15:44:59', '2018-11-05 15:44:59', NULL),
+(657, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 15:45:07', '2018-11-05 15:45:07', NULL),
+(658, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 15:45:09', '2018-11-05 15:45:09', NULL),
+(659, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 15:46:53', '2018-11-05 15:46:53', NULL),
+(660, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/2/edit', 'GET', '2018-11-05 15:55:55', '2018-11-05 15:55:55', NULL),
+(661, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/create', 'GET', '2018-11-05 15:56:12', '2018-11-05 15:56:12', NULL),
+(662, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 16:00:18', '2018-11-05 16:00:18', NULL),
+(663, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-05 16:00:36', '2018-11-05 16:00:36', NULL),
+(664, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-05 16:00:37', '2018-11-05 16:00:37', NULL),
+(665, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting/1/edit', 'GET', '2018-11-05 16:29:12', '2018-11-05 16:29:12', NULL),
+(666, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-05 16:29:21', '2018-11-05 16:29:21', NULL),
+(667, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-10 06:33:15', '2018-11-10 06:33:15', NULL),
+(668, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-10 06:33:16', '2018-11-10 06:33:16', NULL),
+(669, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-10 06:48:29', '2018-11-10 06:48:29', NULL),
+(670, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting', 'GET', '2018-11-10 07:09:28', '2018-11-10 07:09:28', NULL),
+(671, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/meeting', 'GET', '2018-11-10 07:12:08', '2018-11-10 07:12:08', NULL),
+(672, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-10 07:12:16', '2018-11-10 07:12:16', NULL),
+(673, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-10 07:18:38', '2018-11-10 07:18:38', NULL),
+(674, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-10 07:18:39', '2018-11-10 07:18:39', NULL),
+(675, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-10 07:20:49', '2018-11-10 07:20:49', NULL),
+(676, 'Logged Out', 'Registered', 7, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'POST', '2018-11-10 07:21:13', '2018-11-10 07:21:13', NULL),
+(677, 'Logged In', 'Registered', 1, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-10 07:22:17', '2018-11-10 07:22:17', NULL),
+(678, 'Viewed home', 'Registered', 1, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-10 07:22:18', '2018-11-10 07:22:18', NULL),
+(679, 'Logged Out', 'Registered', 1, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/about', 'POST', '2018-11-10 07:22:50', '2018-11-10 07:22:50', NULL),
+(680, 'Logged In', 'Registered', 8, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-10 07:23:37', '2018-11-10 07:23:37', NULL),
+(681, 'Viewed home', 'Registered', 8, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-10 07:23:38', '2018-11-10 07:23:38', NULL),
+(682, 'Logged Out', 'Registered', 8, 'http://localhost:8000/logout', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/about', 'POST', '2018-11-10 07:27:47', '2018-11-10 07:27:47', NULL),
+(683, 'Failed Login Attempt', 'Guest', NULL, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-10 07:27:57', '2018-11-10 07:27:57', NULL),
+(684, 'Failed Login Attempt', 'Guest', NULL, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-10 07:28:09', '2018-11-10 07:28:09', NULL),
+(685, 'Logged In', 'Registered', 7, 'http://localhost:8000/login', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'POST', '2018-11-10 07:30:15', '2018-11-10 07:30:15', NULL),
+(686, 'Viewed home', 'Registered', 7, 'http://localhost:8000/home', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/login', 'GET', '2018-11-10 07:30:16', '2018-11-10 07:30:16', NULL),
+(687, 'Viewed users', 'Registered', 7, 'http://localhost:8000/users', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/home', 'GET', '2018-11-10 07:30:23', '2018-11-10 07:30:23', NULL),
+(688, 'Viewed users/create', 'Registered', 7, 'http://localhost:8000/users/create', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users', 'GET', '2018-11-10 07:30:34', '2018-11-10 07:30:34', NULL),
+(689, 'Created users', 'Registered', 7, 'http://localhost:8000/users', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users/create', 'POST', '2018-11-10 07:30:53', '2018-11-10 07:30:53', NULL),
+(690, 'Viewed users', 'Registered', 7, 'http://localhost:8000/users', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users/create', 'GET', '2018-11-10 07:30:54', '2018-11-10 07:30:54', NULL),
+(691, 'Viewed users/create', 'Registered', 7, 'http://localhost:8000/users/create', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users', 'GET', '2018-11-10 07:31:26', '2018-11-10 07:31:26', NULL),
+(692, 'Created users', 'Registered', 7, 'http://localhost:8000/users', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users/create', 'POST', '2018-11-10 07:31:57', '2018-11-10 07:31:57', NULL),
+(693, 'Viewed users', 'Registered', 7, 'http://localhost:8000/users', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users/create', 'GET', '2018-11-10 07:31:58', '2018-11-10 07:31:58', NULL),
+(694, 'Viewed users/create', 'Registered', 7, 'http://localhost:8000/users/create', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users', 'GET', '2018-11-10 07:32:06', '2018-11-10 07:32:06', NULL),
+(695, 'Created users', 'Registered', 7, 'http://localhost:8000/users', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users/create', 'POST', '2018-11-10 07:32:37', '2018-11-10 07:32:37', NULL),
+(696, 'Viewed users', 'Registered', 7, 'http://localhost:8000/users', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0', 'en-US,en;q=0.5', 'http://localhost:8000/users/create', 'GET', '2018-11-10 07:32:39', '2018-11-10 07:32:39', NULL);
 
 -- --------------------------------------------------------
 
@@ -671,12 +806,12 @@ CREATE TABLE `meetings` (
 --
 
 INSERT INTO `meetings` (`id`, `title`, `agenda`, `option`, `date`, `start`, `finish`, `created_at`, `updated_at`, `user_id`) VALUES
-(1, 'test title', 'abcde12345', 'Formal', '2018-11-22', '09:00', '09:30', NULL, '2018-11-03 19:48:06', 1),
-(2, 'test title edited working', 'this is an agenda test', 'Formal', '2018-11-19', '10:00', '11:30', '2018-10-30 16:00:00', '2018-11-03 19:50:35', 1),
-(4, 'meeting', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac hendrerit metus. Donec vel dui auctor,', 'Formal', '2018-11-29', '14:00', '15:00', '2018-10-30 07:45:31', '2018-11-03 19:53:11', 1),
-(5, 'abc meeting', 'Pellentesque dictum magna sed lacus rhoncus, sed tristique enim lacinia. Praesent porttitor eget arcu sit amet malesuada. Morbi eget mauris eros.', 'Formal', '2018-11-21', '11:30', '12:00', '2018-10-30 07:52:45', '2018-11-03 20:04:16', 1),
-(6, 'meeting', 'sed tristique enim lacinia. Praesent porttitor eget arcu sit amet malesuada. Morbi eget mauris eros. Morbi ut risus tincidunt quam viverra fermentum.', 'Formal', '2018-11-06', '09:30', '10:00', '2018-11-01 03:22:06', '2018-11-03 20:05:04', 1),
-(8, 'this is edited meeting title', 'Praesent ac hendrerit metus. Donec vel dui auctor, malesuada dui a, rutrum dolor. Pellentesque dictum magna sed lacus rhoncus, sed tristique enim lacinia.', 'Formal', '2018-11-22', '09:30', '10:00', '2018-11-01 06:14:11', '2018-11-03 20:05:33', 1);
+(1, 'test title', 'edit page works with storing array for meeting details, and dropdown user email.', 'Formal', '2018-11-22', '11:30', '12:00', NULL, '2018-11-05 10:46:36', 7),
+(2, 'test title edited working 5/11', 'agenda field now populate from db when edit meeting', 'Formal', '2018-11-19', '07:30', '08:00', '2018-10-30 16:00:00', '2018-11-05 11:22:06', 7),
+(9, 'abc', '123', 'Formal', '2018-11-29', '07:30', '08:00', '2018-11-05 01:50:24', '2018-11-05 01:50:24', 6),
+(10, 'meeting', 'updated create meeting with dropdown user email', 'Formal', '2018-11-21', '14:00', '15:00', '2018-11-05 10:16:48', '2018-11-05 10:16:48', 7),
+(11, 'meeting', 'test agenda', 'Formal', '2018-11-22', '09:00', '10:00', '2018-11-05 16:01:22', '2018-11-05 16:01:22', 7),
+(12, 'meeting', 'test agenda', 'Formal', '2018-11-08', '09:00', '10:00', '2018-11-05 16:03:46', '2018-11-05 16:03:46', 7);
 
 -- --------------------------------------------------------
 
@@ -813,38 +948,13 @@ CREATE TABLE `profiles` (
 --
 
 INSERT INTO `profiles` (`id`, `user_id`, `theme_id`, `location`, `bio`, `twitter_username`, `github_username`, `avatar`, `avatar_status`, `created_at`, `updated_at`) VALUES
-(1, 1, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-09-29 08:17:00', '2018-09-29 08:17:00'),
 (6, 6, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-18 22:56:58', '2018-10-18 22:56:58'),
 (7, 7, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-18 23:02:12', '2018-10-18 23:02:12'),
 (8, 8, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-18 23:08:23', '2018-10-18 23:08:23'),
-(9, 9, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:06:12', '2018-10-29 01:06:12'),
-(10, 10, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:08:14', '2018-10-29 01:08:14'),
-(11, 11, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:10:10', '2018-10-29 01:10:10'),
-(12, 12, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:12:50', '2018-10-29 01:12:50'),
-(13, 13, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:14:48', '2018-10-29 01:14:48'),
-(14, 14, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:16:22', '2018-10-29 01:16:22'),
-(15, 15, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:17:37', '2018-10-29 01:17:37'),
-(16, 16, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:18:52', '2018-10-29 01:18:52'),
-(17, 17, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:20:24', '2018-10-29 01:20:24'),
-(18, 18, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:21:56', '2018-10-29 01:21:56'),
-(19, 19, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:22:46', '2018-10-29 01:22:46'),
-(20, 20, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:23:39', '2018-10-29 01:23:39'),
-(21, 21, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:24:35', '2018-10-29 01:24:35'),
-(22, 22, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:25:50', '2018-10-29 01:25:50'),
-(23, 23, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:28:11', '2018-10-29 01:28:11'),
-(24, 24, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:29:22', '2018-10-29 01:29:22'),
-(25, 25, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:32:09', '2018-10-29 01:32:09'),
-(26, 26, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:33:09', '2018-10-29 01:33:09'),
-(27, 27, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:38:56', '2018-10-29 01:38:56'),
-(28, 28, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:40:33', '2018-10-29 01:40:33'),
-(29, 29, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:42:00', '2018-10-29 01:42:00'),
-(30, 30, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:54:51', '2018-10-29 01:54:51'),
-(31, 31, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:57:03', '2018-10-29 01:57:03'),
-(32, 32, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:57:51', '2018-10-29 01:57:51'),
-(33, 33, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:58:44', '2018-10-29 01:58:44'),
-(34, 34, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 01:59:42', '2018-10-29 01:59:42'),
-(35, 35, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 02:00:21', '2018-10-29 02:00:21'),
-(36, 36, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 02:11:46', '2018-10-29 02:11:46');
+(36, 36, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-10-29 02:11:46', '2018-10-29 02:11:46'),
+(37, 37, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-11-10 07:30:53', '2018-11-10 07:30:53'),
+(38, 38, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-11-10 07:31:57', '2018-11-10 07:31:57'),
+(39, 39, 1, NULL, NULL, NULL, NULL, NULL, 0, '2018-11-10 07:32:38', '2018-11-10 07:32:38');
 
 -- --------------------------------------------------------
 
@@ -891,38 +1001,13 @@ CREATE TABLE `role_user` (
 --
 
 INSERT INTO `role_user` (`id`, `role_id`, `user_id`, `created_at`, `updated_at`) VALUES
-(1, 1, 1, '2018-09-29 08:17:00', '2018-09-29 08:17:00'),
 (6, 3, 6, '2018-10-18 22:56:58', '2018-10-18 22:56:58'),
-(7, 3, 7, '2018-10-18 23:02:12', '2018-10-18 23:02:12'),
+(7, 1, 7, '2018-10-18 23:02:12', '2018-10-18 23:02:12'),
 (8, 2, 8, '2018-10-18 23:08:23', '2018-10-18 23:08:23'),
-(9, 1, 9, '2018-10-29 01:06:12', '2018-10-29 01:06:12'),
-(10, 2, 10, '2018-10-29 01:08:14', '2018-10-29 01:08:14'),
-(11, 2, 11, '2018-10-29 01:10:10', '2018-10-29 01:10:10'),
-(12, 2, 12, '2018-10-29 01:12:50', '2018-10-29 01:12:50'),
-(13, 2, 13, '2018-10-29 01:14:49', '2018-10-29 01:14:49'),
-(14, 2, 14, '2018-10-29 01:16:22', '2018-10-29 01:16:22'),
-(15, 3, 15, '2018-10-29 01:17:37', '2018-10-29 01:17:37'),
-(16, 3, 16, '2018-10-29 01:18:53', '2018-10-29 01:18:53'),
-(17, 3, 17, '2018-10-29 01:20:24', '2018-10-29 01:20:24'),
-(18, 3, 18, '2018-10-29 01:21:56', '2018-10-29 01:21:56'),
-(19, 3, 19, '2018-10-29 01:22:46', '2018-10-29 01:22:46'),
-(20, 3, 20, '2018-10-29 01:23:39', '2018-10-29 01:23:39'),
-(21, 3, 21, '2018-10-29 01:24:35', '2018-10-29 01:24:35'),
-(22, 3, 22, '2018-10-29 01:25:50', '2018-10-29 01:25:50'),
-(23, 3, 23, '2018-10-29 01:28:11', '2018-10-29 01:28:11'),
-(24, 3, 24, '2018-10-29 01:29:22', '2018-10-29 01:29:22'),
-(25, 3, 25, '2018-10-29 01:32:10', '2018-10-29 01:32:10'),
-(26, 3, 26, '2018-10-29 01:33:09', '2018-10-29 01:33:09'),
-(27, 3, 27, '2018-10-29 01:38:56', '2018-10-29 01:38:56'),
-(28, 3, 28, '2018-10-29 01:40:33', '2018-10-29 01:40:33'),
-(29, 3, 29, '2018-10-29 01:42:00', '2018-10-29 01:42:00'),
-(30, 3, 30, '2018-10-29 01:54:51', '2018-10-29 01:54:51'),
-(31, 3, 31, '2018-10-29 01:57:03', '2018-10-29 01:57:03'),
-(32, 3, 32, '2018-10-29 01:57:51', '2018-10-29 01:57:51'),
-(33, 3, 33, '2018-10-29 01:58:44', '2018-10-29 01:58:44'),
-(34, 3, 34, '2018-10-29 01:59:42', '2018-10-29 01:59:42'),
-(35, 3, 35, '2018-10-29 02:00:22', '2018-10-29 02:00:22'),
-(36, 3, 36, '2018-10-29 02:11:46', '2018-10-29 02:11:46');
+(36, 3, 36, '2018-10-29 02:11:46', '2018-10-29 02:11:46'),
+(37, 1, 37, '2018-11-10 07:30:53', '2018-11-10 07:30:53'),
+(38, 2, 38, '2018-11-10 07:31:57', '2018-11-10 07:31:57'),
+(39, 3, 39, '2018-11-10 07:32:38', '2018-11-10 07:32:38');
 
 -- --------------------------------------------------------
 
@@ -997,38 +1082,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `first_name`, `last_name`, `email`, `password`, `remember_token`, `activated`, `token`, `signup_ip_address`, `signup_confirmation_ip_address`, `signup_sm_ip_address`, `admin_ip_address`, `updated_ip_address`, `deleted_ip_address`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'admin', 'admin', 'ubd', 'admin@ubd.edu.bn', '$2y$10$w.kIbJjJ3y.GWVsc1N5eyu3jM6LRS4L.5bXv1fxK7UnNSdRksyQdC', 'sPJZRc1WoqI9GKOcit2CYxFfs3bCbBN8Cn6cqqaEClWtKeABt6XZ7SQYgXwo', 1, 'SvdrLQJAJRfkHjfFTEIFzUBQiWxdPDl1O07J3mT1TyQ7YxduzegEeAZSAe8lsFnm', NULL, '165.250.108.4', NULL, '244.117.235.149', '0.0.0.0', NULL, '2018-09-29 08:17:00', '2018-09-29 09:46:27', NULL),
-(6, '15b3089', 'Mason', 'ubd', '15b3089@ubd.edu.bn', '$2y$10$Qq48dl74LBs4hd6E1r3zaeojt4KxZj1Buuf4LBP7kYelvZF3U3F3G', NULL, 1, 'QZnzaihSzmTf03dk88BNIjHAcRvnPIdQuuivnUwe8BtsWd8rsOhDiroTjuJAjqRp', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 22:56:58', '2018-10-18 22:56:58', NULL),
-(7, '14b3370', 'Asmadi', 'ubd', '14b3370@ubd.edu.bn', '$2y$10$b0kL2w9qih76NzIcUhpXTO0kRIm11w6xOBuIhDiDyQPApKuOIOCFK', 'rj0RMsoZA48o9MsRjxuAWRDNsgDivDGixYQ15ETbDC1UCc9Du89BPHcp2G1H', 1, '2PTZiVLmKCgaXuUz1CB1cS5aKLZKzcrhk04WjbjAA9cJVT5UN8vnGsdsF9i7enhf', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 23:02:12', '2018-10-18 23:02:12', NULL),
-(8, 'arosha.senanayake', NULL, NULL, 'arosha.senanayake@ubd.edu.bn', '$2y$10$8bCOS6evELP6EEDDN1rDQu66H6u2HvncqSl3hDTPltz3Rczyt40im', NULL, 1, 'l8qEHg4rpETyIy8TpeYOIAIHGGlmeDs3Z7AdrXi4JeUrCk8SsFqXSHeM1ibz5kIx', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 23:08:22', '2018-10-18 23:08:22', NULL),
-(9, 'solarxmace', 'Raegan', 'Mooney', 'solarxmace@gmail.com', '$2y$10$s5YbHbgQgPsEg2v8Ul4zCer8MzP.cMIClsDyLOPTcHhcRWXW/8wuy', NULL, 1, 'SosB53UgAOABAUUjHHwCjQRAeHdEgcjbg3K9a3DppjsstbIIG4jZGnBGVdxdLJh1', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:06:12', '2018-10-29 01:06:12', NULL),
-(10, 'felicity', 'Felicity', 'Chandler', 'felicity.chandler@ubd.edu.bn', '$2y$10$NhWm2AECN8tAm4cDyc4B8O6xRkegFuCbAijsq46UL.E26pmDHD13q', NULL, 1, 'cwhmJXPmGaT4aBOtzophcGREIuUntrGlY1FMh92XaaCEeBecqxgg0qrdeH9kD7dt', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:08:14', '2018-10-29 01:08:14', NULL),
-(11, 'cortez', 'Cortez', 'Knox', 'cortez.knox@ubd.edu.bn', '$2y$10$/7XHiyq0ihNgV0Nh7P7.CuY7UiaPfL1AXvumnId.rnMopAGXIHcMa', NULL, 1, 'xUkk9zREosMNmEHJfMdZAxrTOqbqrf01aM7JkT0VqUlk8WL5nJqadc9YX12VS884', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:10:10', '2018-10-29 01:10:10', NULL),
-(12, 'richard', 'Richard', 'Rocha', 'richard.rocha@ubd.edu.bn', '$2y$10$cRMfCJympeegXVSMitNAIe0OJQ9FYaSDmVbdVXalz.6GVW0i1VmS.', NULL, 1, 'FMTYgYr9M3TkX2hYlFfsVGOqtcbGGKEy6JzFAtPt2bKTfJ3odLOA1R4BidzkumGs', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:12:50', '2018-10-29 01:12:50', NULL),
-(13, 'Kelton', 'Kelton', 'Johnson', 'kelton.johnson@ubd.edu.bn', '$2y$10$VyxmFtRByitwYx4JjuoYReHxAckz6KbXXZtqqZWvo8bF0YWbmOb2i', NULL, 1, 'Cshisk2ltOhQDUsMFb0y5LFLY8nfEZz7tOPWH9LJrNccRECQJVXJKXL95yDId85Y', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:14:48', '2018-10-29 01:14:48', NULL),
-(14, 'Kiana', 'Kiana', 'Calderon', 'kiana.calderon@ubd.edu.bn', '$2y$10$ohICsJ3XhEZdWCocP89s0O/p5R5JzbKzoqoeP7o6BrOdwvK3ezuza', NULL, 1, 'cSg4rCoj8XrfgH2HZvLUsa3ls35mrEGmeVdWlTEqYDM8FzgC4Gq6fPlRJQAGYe1W', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:16:22', '2018-10-29 01:16:22', NULL),
-(15, 'Jackson', 'Jackson', 'Rush', '18b3001@ubd.edu.bn', '$2y$10$rpMs11B4eyczwhwk7B6vHeFJExxEvIqc4.0guZoc.UeGjdHz4OaKa', NULL, 1, 'ZUAAEJV1emNjaAxcht1t5R8ttQylvwTJ81CuWPfZdHJo50w0VPHi8OzAFU4oKsMb', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:17:37', '2018-10-29 01:17:37', NULL),
-(16, 'Zain', 'Zain', 'Thomas', '18b3002@ubd.edu.bn', '$2y$10$D5611dHHL9Pp7FXNPJ/b7.nhvtgLY7BJAlx0ZSN1bSf9xo1Z5U4Ay', NULL, 1, 'dzlpc3FHyb7XMI0Gl3XMAJCM7xzBj5iducSir6ABNcEXEVgtSdEMFp0CAyAXNuCb', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:18:52', '2018-10-29 01:18:52', NULL),
-(17, 'Judah', 'Judah', 'Klein', '18b3003@ubd.edu.bn', '$2y$10$o0dE2i9kZZ1syBiuHMkh1u7udAKM.HhliAtWN.7J5uPsjFr.I6cvK', NULL, 1, 'HNEJ4Zxoy61jvFYlHibx6TliYC71QpLkkka1I5Rbk8qIwMLpFENt8DnTbD8JFh9V', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:20:24', '2018-10-29 01:20:24', NULL),
-(18, 'James', 'James', 'Fleming', '18b3004@ubd.edu.bn', '$2y$10$Et6oyMwzPU8FEzJXD0cZgenP8.cR/KbqxxX1bAE7gDAuLc2cpHI5C', NULL, 1, 'RlO11ntuMCGBWjH68loqVDWrjHhRRZcjZmncNLkeTVbg2koSGpepSrEXoGKVMcrf', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:21:56', '2018-10-29 01:21:56', NULL),
-(19, 'Amani', 'Amani', 'Black', '18b3005@ubd.edu.bn', '$2y$10$F8XTigzClrygwFf6gW.edugxq3ywAdVtFW3xsuSMvSwF1D4PLBT9u', NULL, 1, '7rKgEurYoRYKNTo0lAsrxLBqlVRPUUjzFwUIvDaranJbFxr13TbW1m0InzWBx8SF', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:22:46', '2018-10-29 01:22:46', NULL),
-(20, 'Macie', 'Macie', 'Ritter', '18b3006@ubd.edu.bn', '$2y$10$cYvO/vc7XdyRt8tu0AXvPu/48zoqZOKF6DWdvpnLDHxRJN8QwNzIe', NULL, 1, 'TBmA4aZnUNwEos0FFh6hFxyeZRGXuyw0DLex7hwjgRKqr5sRQJFu9mSb2CrCiFKN', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:23:39', '2018-10-29 01:23:39', NULL),
-(21, 'Madison', 'Madison', 'Riddle', '18b3007@ubd.edu.bn', '$2y$10$UIY.SEkH8xunSsLpAk3UWuWZyAoUiNn6jBA3xpwwzTum42bZzcymO', NULL, 1, 'byntvQiKACYyIpoVWzqwdjMjGDO3ZC0dOAqisR8NyMnEqL7tx8JKSCp88ODXEZbI', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:24:35', '2018-10-29 01:24:35', NULL),
-(22, 'Kinley', 'Kinley', 'Haley', '18b3008@ubd.edu.bn', '$2y$10$SvbL.RCG6pONAO3bUoMzSOHrbpLOTM.SR7D30KLyDGVef2I1t4i/O', NULL, 1, 'hNIomNzz6QWXIEma8JxmbOjldn6c9vfsdiusjMbKaW2dnCgK62ixj4HvvGX2tR9A', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:25:50', '2018-10-29 01:25:50', NULL),
-(23, 'Kaiya', 'Kaiya', 'Lynch', '18b3009@ubd.edu.bn', '$2y$10$93MmjWjUSVkw2F25iA4TyOTCuxut3FXS8TU/5WjB7/1LS7cgi0hEq', NULL, 1, 'Bem9cPCi7mpsqiJkb5bbykE95R55KI4J8JPptXTQAQBZ3AJ8FU4rPa6SGdYz1qIM', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:28:11', '2018-10-29 01:28:11', NULL),
-(24, 'Caroline', 'Caroline', 'Wagner', '18b3010@ubd.edu.bn', '$2y$10$pcWP6MGl5Weo.Nw3EwVobODAvdVb09huSFiPaBA/11fsprWp.X2we', NULL, 1, 'KDsbHDf91GOPXu6QfMsHpEkHm2Q9ZqWsQgRrr6iKmYFeJHYlBTcGV5u0bPKBYjrC', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:29:22', '2018-10-29 01:29:22', NULL),
-(25, 'Aman', 'Aman', 'Perry', '18b3011@ubd.edu.bn', '$2y$10$LjmHE.SBhtyklDVOE5JBkO4uif5OyzrTYof6k4p0z2g7nc8WqYRdm', NULL, 1, 'k381AYC1dZjHi3w0y9rxAIx5HdHZCRXwdzBE0umDbtfVQQbBBK0RkO2WKUQTD2cH', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:32:09', '2018-10-29 01:32:09', NULL),
-(26, 'Sofia', 'Sofia', 'Cooley', '18b3012@ubd.edu.bn', '$2y$10$eKGTWhsgX.7QppK4W8SXwOvMJ1mTI1WPX5ZCANs9egOKXVrqQAigu', NULL, 1, '5LXmY9iZPhnyRRKlXOLLSuBbP1poGb8vpK7EGItCh83DMpjKtSfXU7TwKtluNjQC', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:33:09', '2018-10-29 01:33:09', NULL),
-(27, 'Ernest', 'Ernest', 'Reed', '18b3013@ubd.edu.bn', '$2y$10$63Kb0x0qCOkti2y90O8uVuPutv3MG0NkngJKUhjzKPn7TalLpYIum', NULL, 1, 'mbhoR0vpI8wk5qBuSEX5Dz0K5HCB8ZmAFDalWbJyUY2MWrsMk11XMB3og8DXlLgC', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:38:56', '2018-10-29 01:38:56', NULL),
-(28, 'Alex', 'Alex', 'Strong', '18b3014@ubd.edu.bn', '$2y$10$YT8/eXGbIE.CHzAVkqYyA.ewe219ym4/jdm1CWpRCUbry8bbCuA.a', NULL, 1, 'y70DAYJ5c2J6xXjFj5Y7toDn3q3HUDMwJhP2wxTu98SD7zKAuf0jdfbyafZvdyaV', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:40:33', '2018-10-29 01:40:33', NULL),
-(29, 'Sylvia', 'Sylvia', 'Arellano', '18b3015@ubd.edu.bn', '$2y$10$9XsfqKeLji8BlfnijQxA1eyL1PtZM/VVech.rKE25ETwENaBkbeba', NULL, 1, '3wvtoM8qnPNjiB4TmhLTtRjnsMBagjyyL4PgJ3GGX6QwIuYBHerGO6lGn6tu0il2', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:42:00', '2018-10-29 01:42:00', NULL),
-(30, 'Tia', 'Tia', 'Hopkins', '18b3016@ubd.edu.bn', '$2y$10$mN7iVJ8Aw.0F12pWhWCAfusJhN/sfAJma9103Zwp.h5D3gRmzKfFS', NULL, 1, 'lo2LUSrRSmfbqMeaceRGYCfjqgGvNAJ6mMN9iXEiFLtiFu4kZoE45Jg1wrJw3Zmd', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:54:51', '2018-10-29 01:54:51', NULL),
-(31, 'Gabriela', 'Gabriela', 'Mahoney', '18b3017@ubd.edu.bn', '$2y$10$.wr2Zis7moBo7.XMOnpSUOvFHoUq0RAwW6OoiLyVfAOKTcszR7leO', NULL, 1, 'u2eBDsakPkxNz4Z5iozZsvvsSD3KBqc1EHrXYdL65N04nQJvsnFYx6hx0B3kTXdv', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:57:03', '2018-10-29 01:57:03', NULL),
-(32, 'Jamie', 'Jamie', 'Solis', '18b3018@ubd.edu.bn', '$2y$10$/zDI.5/iIztkTmjY56FhdehiXnEPKBY34RGYlPhXqA7F/LZtp1CeS', NULL, 1, 'QrSUljDZzDmydU3CFXVfALwcH954YM5y6kcssCV7FsoNpdZzWmqBNu6m4OGvQUss', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:57:51', '2018-10-29 01:57:51', NULL),
-(33, 'Andres', 'Andres', 'Kennedy', '18b3019@ubd.edu.bn', '$2y$10$iGq6Eow7m/GZUaOUPX5ANej18ES5dvz0hSYBaosJBgAAm20vniaxS', NULL, 1, 'nmwtUc2H7kvXN3ge3hwQOZbIVGxMIpTd7uC7xe90QsiPOH2Op9MI7loePdABTAxI', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:58:44', '2018-10-29 01:58:44', NULL),
-(34, 'Noelle', 'Noelle', 'Francis', '18b3020@ubd.edu.bn', '$2y$10$R6cqEaqr.mQd10jBlRZG1.d2OPxsxSqQRZiTwTmCHFj10AZys6y5W', NULL, 1, 'Ik6ZIIAnvyFedCPCPwTD8ySulPYg8YT1lQMcgeXqa4qIPhDSiJ2ZKYsY8wJ1Adkf', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 01:59:42', '2018-10-29 01:59:42', NULL),
-(35, 'Finley', 'Finley', 'Barr', '18b3021@ubd.edu.bn', '$2y$10$REOVQOa30nzn/wUpRqQcK.VlI7SSMXDp4h6V6IU21fIyNMi9oOF9m', NULL, 1, '5oYliCjUtBbhKlG2giAKKUR3XUCEQAMmy3UcKHvyuWLuVFmiokfh9krM75W2ixFI', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 02:00:21', '2018-10-29 02:00:21', NULL),
-(36, 'Fathin', 'Fathin', 'Bujang', '14b8338@ubd.edu.bn', '$2y$10$cldOrGO3.EIqQanrOAC0gehCQrP4duv5zhCdYQi0MkJVwCK9aAuku', NULL, 1, 'FNKB67F9t9LJJJqkTtU2OalOhV4YGtr3Wo2twsaxcUrHMY50WBayz3klbKKRGF8n', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 02:11:46', '2018-10-29 02:11:46', NULL);
+(6, '15b3089', 'Mason', 'ubd', '15b3089@ubd.edu.bn', '$2y$10$Qq48dl74LBs4hd6E1r3zaeojt4KxZj1Buuf4LBP7kYelvZF3U3F3G', 'hgpkUtnCrV58SkiMnw3TaNW4L7Rb77OkW4ONAkOUXgFY5ePGajtpzybqjUQ0', 1, 'QZnzaihSzmTf03dk88BNIjHAcRvnPIdQuuivnUwe8BtsWd8rsOhDiroTjuJAjqRp', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 22:56:58', '2018-10-18 22:56:58', NULL),
+(7, '14b3370', 'Asmadi', 'ubd', '14b3370@ubd.edu.bn', '$2y$10$b0kL2w9qih76NzIcUhpXTO0kRIm11w6xOBuIhDiDyQPApKuOIOCFK', 'N7kW9Wkf5aJQY3okcuIjvMVurXN3tKcbCeeOif0xyEH29idOWzorkL7ONG5K', 1, '2PTZiVLmKCgaXuUz1CB1cS5aKLZKzcrhk04WjbjAA9cJVT5UN8vnGsdsF9i7enhf', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 23:02:12', '2018-10-18 23:02:12', NULL),
+(8, 'arosha.senanayake', NULL, NULL, 'arosha.senanayake@ubd.edu.bn', '$2y$10$8bCOS6evELP6EEDDN1rDQu66H6u2HvncqSl3hDTPltz3Rczyt40im', 'r258NvkySvC4JsLzALV246dI72rBYcVVnLScS2ifYVd6HmlkyR9vE3xxj13H', 1, 'l8qEHg4rpETyIy8TpeYOIAIHGGlmeDs3Z7AdrXi4JeUrCk8SsFqXSHeM1ibz5kIx', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-18 23:08:22', '2018-10-18 23:08:22', NULL),
+(36, 'Fathin', 'Fathin', 'Bujang', '14b8338@ubd.edu.bn', '$2y$10$cldOrGO3.EIqQanrOAC0gehCQrP4duv5zhCdYQi0MkJVwCK9aAuku', NULL, 1, 'FNKB67F9t9LJJJqkTtU2OalOhV4YGtr3Wo2twsaxcUrHMY50WBayz3klbKKRGF8n', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-10-29 02:11:46', '2018-10-29 02:11:46', NULL),
+(37, 'admin', 'admin', 'ubd', 'admin@ubd.edu.bn', '$2y$10$Hy.8EpZxQUOv3YFcriuO8eoE10mkjbkDX36qoeecqKLs5kpceOOBy', NULL, 1, 'mSdcGY3UVOnJX47d8GzMBv0B7CTvXzt70NDjMlnBFQDPI3xB1XXenqJhfvhAl1Vl', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-11-10 07:30:53', '2018-11-10 07:30:53', NULL),
+(38, 'lecturer', 'lecturer', 'ubd', 'lecturer@ubd.edu.bn', '$2y$10$WspxbrukuKwLYJGHdzvts.4QH4hM2D9/npcOCcmBMiQ63xAD.pKH.', NULL, 1, 'QGFp0N9H7jFNQtH3vcC3F0hRTotBISRlHcAePSnf5RBAb6QPFVFZw4y2q2f58hOP', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-11-10 07:31:57', '2018-11-10 07:31:57', NULL),
+(39, 'student', 'student', 'ubd', 'student@ubd.edu.bn', '$2y$10$rNrD63arMUl2/.O2gYWrWe4EslTOYIcU3FoTbXLR5ro4ozbZnIGEe', NULL, 1, 'VIMCO2WraJmatp1cv1iXb730d4xRzszcGg9MyTpGBQ2yrgLl5oj81unUaPyHqQyf', NULL, NULL, NULL, '0.0.0.0', NULL, NULL, '2018-11-10 07:32:38', '2018-11-10 07:32:38', NULL);
 
 --
 -- Indexes for dumped tables
@@ -1166,13 +1226,13 @@ ALTER TABLE `laravel2step`
 -- AUTO_INCREMENT for table `laravel_logger_activity`
 --
 ALTER TABLE `laravel_logger_activity`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=562;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=697;
 
 --
 -- AUTO_INCREMENT for table `meetings`
 --
 ALTER TABLE `meetings`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -1208,7 +1268,7 @@ ALTER TABLE `permission_user`
 -- AUTO_INCREMENT for table `profiles`
 --
 ALTER TABLE `profiles`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
 
 --
 -- AUTO_INCREMENT for table `roles`
@@ -1220,7 +1280,7 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT for table `role_user`
 --
 ALTER TABLE `role_user`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
 
 --
 -- AUTO_INCREMENT for table `social_logins`
@@ -1238,7 +1298,7 @@ ALTER TABLE `themes`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
 
 --
 -- Constraints for dumped tables
